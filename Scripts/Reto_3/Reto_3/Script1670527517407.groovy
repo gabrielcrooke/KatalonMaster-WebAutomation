@@ -37,7 +37,7 @@ WebUI.setText(findTestObject('Object Repository/Reto_3/Page_Datos Personales  Te
 
 WebUI.setText(findTestObject('Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/textarea_Direccin_field_28'), "Direccion 1")
 
-WebUI.click(findTestObject('Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/button_Submit'))
+WebUI.click(findTestObject('Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/button_Submit3'))
 
 WebUI.closeBrowser()
 
