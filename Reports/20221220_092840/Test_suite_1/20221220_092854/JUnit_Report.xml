@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_suite_1" time="147.243" tests="4" failures="0" errors="0">
+   <testsuite name="Test_suite_1" tests="4" failures="0" errors="0" time="147.243" skipped="0" timestamp="2022-12-20 09:30:28" hostname="gabrielcrooke - 192.168.4.65" id="Test Suites/Test_suite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_1/20221220_092854"/>
+         <property name="logFiles" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_1/20221220_092854/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gabrielcrooke - 192.168.4.65"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.3.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.4.65"/>
+         <property name="sessionId" value="b85e9a425eb71be48b544852a428eb70"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Navegador/Navegador" time="70.383" classname="Test Cases/Navegador/Navegador" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:30:29 - [TEST_CASE][PASSED] - Test Cases/Navegador/Navegador: Test Cases/Navegador/Navegador
+
+2022-12-20 09:30:29 - [TEST_STEP][PASSED] - openBrowser("https://demoqa.com/automation-practice-form"): Browser is opened with url: 'https://demoqa.com/automation-practice-form'
+
+2022-12-20 09:30:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:30:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:31:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoqa.com/automation-practice-form'
+
+2022-12-20 09:31:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:31:31 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:31:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/browser-windows"): Navigate to 'https://demoqa.com/browser-windows' successfully
+
+2022-12-20 09:31:32 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/browser-windows' successfully
+
+2022-12-20 09:31:32 - [TEST_STEP][PASSED] - page_url = getUrl(): Current window's url is: 'https://demoqa.com/browser-windows'
+
+2022-12-20 09:31:32 - [MESSAGE][PASSED] - Current window's url is: 'https://demoqa.com/browser-windows'
+
+2022-12-20 09:31:32 - [TEST_STEP][PASSED] - print(page_url): null
+
+2022-12-20 09:31:32 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2022-12-20 09:31:33 - [MESSAGE][PASSED] - Navigate back successfully
+
+2022-12-20 09:31:33 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2022-12-20 09:31:39 - [MESSAGE][PASSED] - Refresh successfully
+
+2022-12-20 09:31:39 - [TEST_STEP][PASSED] - page_title = getWindowTitle(): Current window's title is: 'ToolsQA'
+
+2022-12-20 09:31:39 - [MESSAGE][PASSED] - Current window's title is: 'ToolsQA'
+
+2022-12-20 09:31:39 - [TEST_STEP][PASSED] - print(page_title): null
+
+2022-12-20 09:31:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:31:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carga_1/Carga_1" time="15.004" classname="Test Cases/Carga_1/Carga_1" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:31:39 - [TEST_CASE][PASSED] - Test Cases/Carga_1/Carga_1: Test Cases/Carga_1/Carga_1
+
+2022-12-20 09:31:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:31:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:31:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:31:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:31:41 - [TEST_STEP][PASSED] - navigateToUrl("https://testpages.herokuapp.com/styled/file-upload-test.html"): Navigate to 'https://testpages.herokuapp.com/styled/file-upload-test.html' successfully
+
+2022-12-20 09:31:44 - [MESSAGE][PASSED] - Navigate to 'https://testpages.herokuapp.com/styled/file-upload-test.html' successfully
+
+2022-12-20 09:31:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:31:44 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:31:44 - [TEST_STEP][PASSED] - uploadFile(findTestObject("carga_1/Page_Upload a File/input_Upload a File_filename"), "/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/thumbnail.png"): File '/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/thumbnail.png' sent to object: 'Object Repository/carga_1/Page_Upload a File/input_Upload a File_filename'
+
+2022-12-20 09:31:45 - [MESSAGE][PASSED] - File '/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/thumbnail.png' sent to object: 'Object Repository/carga_1/Page_Upload a File/input_Upload a File_filename'
+
+2022-12-20 09:31:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-20 09:31:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-20 09:31:49 - [TEST_STEP][PASSED] - click(findTestObject("carga_1/Page_Upload a File/label_Image")): Object: 'Object Repository/carga_1/Page_Upload a File/label_Image' is clicked on
+
+2022-12-20 09:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/carga_1/Page_Upload a File/label_Image' is clicked on
+
+2022-12-20 09:31:49 - [TEST_STEP][PASSED] - click(findTestObject("carga_1/Page_Upload a File/input_A General File_upload")): Object: 'Object Repository/carga_1/Page_Upload a File/input_A General File_upload' is clicked on
+
+2022-12-20 09:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/carga_1/Page_Upload a File/input_A General File_upload' is clicked on
+
+2022-12-20 09:31:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("carga_1/Page_Uploaded Results Page/Page_Uploaded Results Page/Results"), "thumbnail.png"): Actual text and expected text of test object 'Object Repository/carga_1/Page_Uploaded Results Page/Page_Uploaded Results Page/Results' are matched.
+
+2022-12-20 09:31:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/carga_1/Page_Uploaded Results Page/Page_Uploaded Results Page/Results' are matched.
+
+2022-12-20 09:31:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-20 09:31:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-20 09:31:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:31:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reto_3/Reto_3" time="18.5" classname="Test Cases/Reto_3/Reto_3" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:31:54 - [TEST_CASE][PASSED] - Test Cases/Reto_3/Reto_3: Test Cases/Reto_3/Reto_3
+
+2022-12-20 09:31:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:31:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:31:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:31:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:31:57 - [TEST_STEP][PASSED] - navigateToUrl("https://testingqarvn.com.es/datos-personales/"): Navigate to 'https://testingqarvn.com.es/datos-personales/' successfully
+
+2022-12-20 09:32:06 - [MESSAGE][PASSED] - Navigate to 'https://testingqarvn.com.es/datos-personales/' successfully
+
+2022-12-20 09:32:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:32:06 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:32:06 - [TEST_STEP][PASSED] - scrollToPosition(0, 600): Browser is scrolled to position x = 0, y = 600
+
+2022-12-20 09:32:06 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 600
+
+2022-12-20 09:32:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/h2_Datos Personales Bsicos"), "Datos Personales Básicos"): Actual text and expected text of test object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/h2_Datos Personales Bsicos' are matched.
+
+2022-12-20 09:32:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/h2_Datos Personales Bsicos' are matched.
+
+2022-12-20 09:32:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21"), "Tester New"): Text 'Tester New' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21'
+
+2022-12-20 09:32:08 - [MESSAGE][PASSED] - Text 'Tester New' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21'
+
+2022-12-20 09:32:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Apellidos_field_22"), "Automate"): Text 'Automate' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Apellidos_field_22'
+
+2022-12-20 09:32:09 - [MESSAGE][PASSED] - Text 'Automate' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Apellidos_field_22'
+
+2022-12-20 09:32:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Email_field_23"), "prueba@hotmail.com"): Text 'prueba@hotmail.com' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Email_field_23'
+
+2022-12-20 09:32:10 - [MESSAGE][PASSED] - Text 'prueba@hotmail.com' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Email_field_23'
+
+2022-12-20 09:32:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Phone_field_24"), "8098879879"): Text '8098879879' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Phone_field_24'
+
+2022-12-20 09:32:11 - [MESSAGE][PASSED] - Text '8098879879' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Phone_field_24'
+
+2022-12-20 09:32:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/textarea_Direccin_field_28"), "Direccion 1"): Text 'Direccion 1' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/textarea_Direccin_field_28'
+
+2022-12-20 09:32:12 - [MESSAGE][PASSED] - Text 'Direccion 1' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/textarea_Direccin_field_28'
+
+2022-12-20 09:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/button_Submit")): Object: 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/button_Submit' is clicked on
+
+2022-12-20 09:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/button_Submit' is clicked on
+
+2022-12-20 09:32:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:32:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Set_text_Combo_texto/Set_text_Combo_texto" time="42.695" classname="Test Cases/Set_text_Combo_texto/Set_text_Combo_texto" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:32:13 - [TEST_CASE][PASSED] - Test Cases/Set_text_Combo_texto/Set_text_Combo_texto: Test Cases/Set_text_Combo_texto/Set_text_Combo_texto
+
+2022-12-20 09:32:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:32:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:32:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:32:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:32:16 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-20 09:32:45 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-20 09:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName")): Object: 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName' is clicked on
+
+2022-12-20 09:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName' is clicked on
+
+2022-12-20 09:32:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName"), "Jose"): Text 'Jose' is set on object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:47 - [MESSAGE][PASSED] - Text 'Jose' is set on object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("set_text_combo_texto/Page_ToolsQA/input_Name_firstName"), " Reyes"): Keys ' Reyes' sent to object: 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:47 - [MESSAGE][PASSED] - Keys ' Reyes' sent to object: 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:47 - [TEST_STEP][PASSED] - clearText(findTestObject("set_text_combo_texto/Page_ToolsQA/input_Name_firstName")): Text of object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName' is cleared
+
+2022-12-20 09:32:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName' is cleared
+
+2022-12-20 09:32:48 - [TEST_STEP][PASSED] - setText(findTestObject("set_text_combo_texto/Page_ToolsQA/input_Name_firstName"), "Alfonso Lora"): Text 'Alfonso Lora' is set on object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:49 - [MESSAGE][PASSED] - Text 'Alfonso Lora' is set on object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:49 - [TEST_STEP][PASSED] - delay(Tiempo): Delayed 2 second(s)
+
+2022-12-20 09:32:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:32:51 - [TEST_STEP][PASSED] - check(findTestObject("set_text_combo_texto/Page_ToolsQA/label_Male")): Object 'Object Repository/set_text_combo_texto/Page_ToolsQA/label_Male' is checked
+
+2022-12-20 09:32:52 - [MESSAGE][PASSED] - Object 'Object Repository/set_text_combo_texto/Page_ToolsQA/label_Male' is checked
+
+2022-12-20 09:32:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("set_text_combo_texto/Page_ToolsQA/hobbies_check"), 0): Scroll to object 'Object Repository/set_text_combo_texto/Page_ToolsQA/hobbies_check' successfully
+
+2022-12-20 09:32:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 09:32:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/set_text_combo_texto/Page_ToolsQA/hobbies_check' successfully
+
+2022-12-20 09:32:52 - [TEST_STEP][PASSED] - check(findTestObject("set_text_combo_texto/Page_ToolsQA/hobbies_check")): Object 'Object Repository/set_text_combo_texto/Page_ToolsQA/hobbies_check' is checked
+
+2022-12-20 09:32:53 - [MESSAGE][PASSED] - Object 'Object Repository/set_text_combo_texto/Page_ToolsQA/hobbies_check' is checked
+
+2022-12-20 09:32:53 - [TEST_STEP][PASSED] - delay(Tiempo): Delayed 2 second(s)
+
+2022-12-20 09:32:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:32:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:32:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-20 09:30:28 - [TEST_SUITE][PASSED] - Test_suite_1: Test Cases/Set_text_Combo_texto/Set_text_Combo_texto]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

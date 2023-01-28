@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_4,Firefox 108.0,,,2022-12-20 09:33:30,2022-12-20 09:42:06,8m - 36.244s,FAILED
+,,,,,,,
+Test Cases/Eventos_Mouse/Double_click,Firefox 108.0,,,2022-12-20 09:33:30,2022-12-20 09:33:55,24.859s,PASSED
+"openBrowser("""")",Firefox 108.0,,,2022-12-20 09:33:31,2022-12-20 09:33:37,5.982s,PASSED
+"navigateToUrl(""https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx"")",Firefox 108.0,,,2022-12-20 09:33:37,2022-12-20 09:33:48,11.344s,PASSED
+maximizeWindow(),Firefox 108.0,,,2022-12-20 09:33:48,2022-12-20 09:33:49,0.542s,PASSED
+waitForPageLoad(5),Firefox 108.0,,,2022-12-20 09:33:49,2022-12-20 09:33:49,0.408s,PASSED
+"click(findTestObject(""Object Repository/double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island""))",Firefox 108.0,,,2022-12-20 09:33:49,2022-12-20 09:33:50,0.874s,PASSED
+"doubleClick(findTestObject(""Object Repository/double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island""))",Firefox 108.0,,,2022-12-20 09:33:50,2022-12-20 09:33:52,2.412s,PASSED
+delay(2),Firefox 108.0,,,2022-12-20 09:33:52,2022-12-20 09:33:54,2.025s,PASSED
+closeBrowser(),Firefox 108.0,,,2022-12-20 09:33:54,2022-12-20 09:33:55,0.963s,PASSED
+,,,,,,,
+Test Cases/Eventos_Mouse/focus,Firefox 108.0,,,2022-12-20 09:33:55,2022-12-20 09:35:04,1m - 9.010s,PASSED
+"openBrowser("""")",Firefox 108.0,,,2022-12-20 09:33:56,2022-12-20 09:33:59,2.843s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Firefox 108.0,,,2022-12-20 09:33:59,2022-12-20 09:34:51,52.251s,PASSED
+waitForPageLoad(0),Firefox 108.0,,,2022-12-20 09:34:51,2022-12-20 09:34:51,0.020s,PASSED
+maximizeWindow(),Firefox 108.0,,,2022-12-20 09:34:51,2022-12-20 09:34:51,0.477s,PASSED
+"focus(findTestObject(""Object Repository/focus/Page_ToolsQA/input_Name_firstName""))",Firefox 108.0,,,2022-12-20 09:34:51,2022-12-20 09:34:52,0.306s,PASSED
+delay(tiempo),Firefox 108.0,,,2022-12-20 09:34:52,2022-12-20 09:34:54,2.009s,PASSED
+"focus(findTestObject(""Object Repository/focus/Page_ToolsQA/input_Name_lastName""))",Firefox 108.0,,,2022-12-20 09:34:54,2022-12-20 09:34:54,0.294s,PASSED
+delay(tiempo),Firefox 108.0,,,2022-12-20 09:34:54,2022-12-20 09:34:56,2.009s,PASSED
+"focus(findTestObject(""Object Repository/focus/Page_ToolsQA/input_Email_userEmail""))",Firefox 108.0,,,2022-12-20 09:34:56,2022-12-20 09:34:56,0.298s,PASSED
+delay(tiempo),Firefox 108.0,,,2022-12-20 09:34:56,2022-12-20 09:34:58,2.011s,PASSED
+"focus(findTestObject(""Object Repository/focus/Page_ToolsQA/input_(10 Digits)_userNumber""))",Firefox 108.0,,,2022-12-20 09:34:58,2022-12-20 09:34:59,0.289s,PASSED
+delay(tiempo),Firefox 108.0,,,2022-12-20 09:34:59,2022-12-20 09:35:01,2.004s,PASSED
+"focus(findTestObject(""Object Repository/focus/Page_ToolsQA/input_Date of Birth_dateOfBirthInput""))",Firefox 108.0,,,2022-12-20 09:35:01,2022-12-20 09:35:01,0.352s,PASSED
+delay(tiempo),Firefox 108.0,,,2022-12-20 09:35:01,2022-12-20 09:35:03,2.006s,PASSED
+"focus(findTestObject(""Object Repository/focus/Page_ToolsQA/div_Subjects_subjects-auto-complete__value-_d244cf""))",Firefox 108.0,,,2022-12-20 09:35:03,2022-12-20 09:35:03,0.398s,PASSED
+closeBrowser(),Firefox 108.0,,,2022-12-20 09:35:03,2022-12-20 09:35:04,1.006s,PASSED
+,,,,,,,
+Test Cases/Eventos_Mouse/draw_drop,Firefox 108.0,,,2022-12-20 09:35:04,2022-12-20 09:35:30,25.795s,PASSED
+"openBrowser("""")",Firefox 108.0,,,2022-12-20 09:35:05,2022-12-20 09:35:07,2.833s,PASSED
+"navigateToUrl(""https://demos.telerik.com/aspnet-ajax/treeview/examples/functionality/draganddropnodes/defaultcs.aspx"")",Firefox 108.0,,,2022-12-20 09:35:07,2022-12-20 09:35:19,11.557s,PASSED
+maximizeWindow(),Firefox 108.0,,,2022-12-20 09:35:19,2022-12-20 09:35:19,0.469s,PASSED
+waitForPageLoad(30),Firefox 108.0,,,2022-12-20 09:35:19,2022-12-20 09:35:19,0.017s,PASSED
+"scrollToPosition(0, 300)",Firefox 108.0,,,2022-12-20 09:35:19,2022-12-20 09:35:19,0.018s,PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/draw_drop/carpeta1""), findTestObject(""Object Repository/draw_drop/textbox""))",Firefox 108.0,,,2022-12-20 09:35:19,2022-12-20 09:35:22,2.331s,PASSED
+delay(1),Firefox 108.0,,,2022-12-20 09:35:22,2022-12-20 09:35:23,1.005s,PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/draw_drop/carpeta2""), findTestObject(""Object Repository/draw_drop/textbox""))",Firefox 108.0,,,2022-12-20 09:35:23,2022-12-20 09:35:26,3.518s,PASSED
+delay(3),Firefox 108.0,,,2022-12-20 09:35:26,2022-12-20 09:35:29,3.004s,PASSED
+closeBrowser(),Firefox 108.0,,,2022-12-20 09:35:29,2022-12-20 09:35:30,0.808s,PASSED
+,,,,,,,
+Test Cases/Select/Select,Firefox 108.0,,,2022-12-20 09:35:30,2022-12-20 09:35:44,14.247s,PASSED
+"openBrowser("""")",Firefox 108.0,,,2022-12-20 09:35:30,2022-12-20 09:35:33,2.552s,PASSED
+"navigateToUrl(""https://testingqarvn.com.es/combobox/"")",Firefox 108.0,,,2022-12-20 09:35:33,2022-12-20 09:35:35,1.804s,PASSED
+maximizeWindow(),Firefox 108.0,,,2022-12-20 09:35:35,2022-12-20 09:35:35,0.498s,PASSED
+"selectOptionByLabel(findTestObject(""Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac""), ""Linux"", false)",Firefox 108.0,,,2022-12-20 09:35:35,2022-12-20 09:35:36,0.743s,PASSED
+delay(Tiempo),Firefox 108.0,,,2022-12-20 09:35:36,2022-12-20 09:35:38,2.009s,PASSED
+"selectOptionByIndex(findTestObject(""Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac""), 2)",Firefox 108.0,,,2022-12-20 09:35:38,2022-12-20 09:35:39,0.968s,PASSED
+delay(Tiempo),Firefox 108.0,,,2022-12-20 09:35:39,2022-12-20 09:35:41,2.004s,PASSED
+"selectOptionByValue(findTestObject(""Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac""), ""Windows"", false)",Firefox 108.0,,,2022-12-20 09:35:41,2022-12-20 09:35:42,0.720s,PASSED
+delay(Tiempo),Firefox 108.0,,,2022-12-20 09:35:42,2022-12-20 09:35:44,2.007s,PASSED
+closeBrowser(),Firefox 108.0,,,2022-12-20 09:35:44,2022-12-20 09:35:44,0.669s,PASSED
+,,,,,,,
+Test Cases/Reto_selectores/Reto_selectores,Firefox 108.0,,,2022-12-20 09:39:06,2022-12-20 09:39:57,51.415s,FAILED
+"openBrowser("""")",Firefox 108.0,,,2022-12-20 09:39:06,2022-12-20 09:39:10,4.156s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Firefox 108.0,,,2022-12-20 09:39:10,2022-12-20 09:39:23,12.942s,PASSED
+maximizeWindow(),Firefox 108.0,,,2022-12-20 09:39:23,2022-12-20 09:39:23,0.493s,PASSED
+"setText(findTestObject(""Reto_selectores/input_name""), ""Tanjiro"")",Firefox 108.0,,,2022-12-20 09:39:23,2022-12-20 09:39:24,0.578s,PASSED
+"setText(findTestObject(""Reto_selectores/input_lastname""), ""Kamado"")",Firefox 108.0,,,2022-12-20 09:39:24,2022-12-20 09:39:25,0.733s,PASSED
+"setText(findTestObject(""Reto_selectores/input_mail""), ""tkamado@outlook.com"")",Firefox 108.0,,,2022-12-20 09:39:25,2022-12-20 09:39:25,0.513s,PASSED
+"click(findTestObject(""Reto_selectores/radio_female""))",Firefox 108.0,,,2022-12-20 09:39:25,2022-12-20 09:39:26,0.497s,PASSED
+"setText(findTestObject(""Reto_selectores/input_mobile""), ""8287876201"")",Firefox 108.0,,,2022-12-20 09:39:26,2022-12-20 09:39:26,0.517s,PASSED
+"click(findTestObject(""Reto_selectores/check_hobbie""))",Firefox 108.0,,,2022-12-20 09:39:26,2022-12-20 09:39:57,30.972s,FAILED
+,,,,,,,
+Test Cases/Reto_1/Reto_1,Firefox 108.0,,,2022-12-20 09:41:27,2022-12-20 09:42:06,38.972s,FAILED
+"openBrowser("""")",Firefox 108.0,,,2022-12-20 09:41:27,2022-12-20 09:41:31,3.793s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Firefox 108.0,,,2022-12-20 09:41:31,2022-12-20 09:41:59,27.353s,PASSED
+maximizeWindow(),Firefox 108.0,,,2022-12-20 09:41:59,2022-12-20 09:41:59,0.475s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/div_Elements_card-up""))",Firefox 108.0,,,2022-12-20 09:41:59,2022-12-20 09:42:00,0.690s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/li_Check Box""))",Firefox 108.0,,,2022-12-20 09:42:00,2022-12-20 09:42:01,1.753s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/svg_Book Store API_rct-icon rct-icon-expand-close""))",Firefox 108.0,,,2022-12-20 09:42:01,2022-12-20 09:42:02,0.496s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/span_Desktop""))",Firefox 108.0,,,2022-12-20 09:42:02,2022-12-20 09:42:02,0.468s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/span_Documents""))",Firefox 108.0,,,2022-12-20 09:42:02,2022-12-20 09:42:03,0.487s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/span_Downloads""))",Firefox 108.0,,,2022-12-20 09:42:03,2022-12-20 09:42:04,0.586s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/span_Home""))",Firefox 108.0,,,2022-12-20 09:42:04,2022-12-20 09:42:04,0.493s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/span_Home""))",Firefox 108.0,,,2022-12-20 09:42:04,2022-12-20 09:42:04,0.465s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/li_Radio Button""))",Firefox 108.0,,,2022-12-20 09:42:04,2022-12-20 09:42:05,0.478s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/label_Yes""))",Firefox 108.0,,,2022-12-20 09:42:05,2022-12-20 09:42:05,0.476s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/label_Impressive""))",Firefox 108.0,,,2022-12-20 09:42:05,2022-12-20 09:42:06,0.476s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/label_Yes""))",Firefox 108.0,,,2022-12-20 09:42:06,2022-12-20 09:42:06,0.467s,PASSED
+delay(delayTiempo),Firefox 108.0,,,2022-12-20 09:42:06,2022-12-20 09:42:06,0.004s,FAILED

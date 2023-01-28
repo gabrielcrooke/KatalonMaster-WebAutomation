@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_collection_1" time="702.942" tests="18" failures="2" errors="0">
+   <testsuite name="Test_suite_1" tests="4" failures="0" errors="0" time="147.243" skipped="0" timestamp="2022-12-20 09:30:28" hostname="gabrielcrooke - 192.168.4.65" id="Test Suites/Test_suite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_1/20221220_092854"/>
+         <property name="logFiles" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_1/20221220_092854/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gabrielcrooke - 192.168.4.65"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.3.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.4.65"/>
+         <property name="sessionId" value="b85e9a425eb71be48b544852a428eb70"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Navegador/Navegador" time="70.383" classname="Test Cases/Navegador/Navegador" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:30:29 - [TEST_CASE][PASSED] - Test Cases/Navegador/Navegador: Test Cases/Navegador/Navegador
+
+2022-12-20 09:30:29 - [TEST_STEP][PASSED] - openBrowser("https://demoqa.com/automation-practice-form"): Browser is opened with url: 'https://demoqa.com/automation-practice-form'
+
+2022-12-20 09:30:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:30:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:31:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demoqa.com/automation-practice-form'
+
+2022-12-20 09:31:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:31:31 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:31:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/browser-windows"): Navigate to 'https://demoqa.com/browser-windows' successfully
+
+2022-12-20 09:31:32 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/browser-windows' successfully
+
+2022-12-20 09:31:32 - [TEST_STEP][PASSED] - page_url = getUrl(): Current window's url is: 'https://demoqa.com/browser-windows'
+
+2022-12-20 09:31:32 - [MESSAGE][PASSED] - Current window's url is: 'https://demoqa.com/browser-windows'
+
+2022-12-20 09:31:32 - [TEST_STEP][PASSED] - print(page_url): null
+
+2022-12-20 09:31:32 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2022-12-20 09:31:33 - [MESSAGE][PASSED] - Navigate back successfully
+
+2022-12-20 09:31:33 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2022-12-20 09:31:39 - [MESSAGE][PASSED] - Refresh successfully
+
+2022-12-20 09:31:39 - [TEST_STEP][PASSED] - page_title = getWindowTitle(): Current window's title is: 'ToolsQA'
+
+2022-12-20 09:31:39 - [MESSAGE][PASSED] - Current window's title is: 'ToolsQA'
+
+2022-12-20 09:31:39 - [TEST_STEP][PASSED] - print(page_title): null
+
+2022-12-20 09:31:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:31:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Carga_1/Carga_1" time="15.004" classname="Test Cases/Carga_1/Carga_1" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:31:39 - [TEST_CASE][PASSED] - Test Cases/Carga_1/Carga_1: Test Cases/Carga_1/Carga_1
+
+2022-12-20 09:31:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:31:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:31:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:31:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:31:41 - [TEST_STEP][PASSED] - navigateToUrl("https://testpages.herokuapp.com/styled/file-upload-test.html"): Navigate to 'https://testpages.herokuapp.com/styled/file-upload-test.html' successfully
+
+2022-12-20 09:31:44 - [MESSAGE][PASSED] - Navigate to 'https://testpages.herokuapp.com/styled/file-upload-test.html' successfully
+
+2022-12-20 09:31:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:31:44 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:31:44 - [TEST_STEP][PASSED] - uploadFile(findTestObject("carga_1/Page_Upload a File/input_Upload a File_filename"), "/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/thumbnail.png"): File '/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/thumbnail.png' sent to object: 'Object Repository/carga_1/Page_Upload a File/input_Upload a File_filename'
+
+2022-12-20 09:31:45 - [MESSAGE][PASSED] - File '/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/thumbnail.png' sent to object: 'Object Repository/carga_1/Page_Upload a File/input_Upload a File_filename'
+
+2022-12-20 09:31:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-20 09:31:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-20 09:31:49 - [TEST_STEP][PASSED] - click(findTestObject("carga_1/Page_Upload a File/label_Image")): Object: 'Object Repository/carga_1/Page_Upload a File/label_Image' is clicked on
+
+2022-12-20 09:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/carga_1/Page_Upload a File/label_Image' is clicked on
+
+2022-12-20 09:31:49 - [TEST_STEP][PASSED] - click(findTestObject("carga_1/Page_Upload a File/input_A General File_upload")): Object: 'Object Repository/carga_1/Page_Upload a File/input_A General File_upload' is clicked on
+
+2022-12-20 09:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/carga_1/Page_Upload a File/input_A General File_upload' is clicked on
+
+2022-12-20 09:31:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("carga_1/Page_Uploaded Results Page/Page_Uploaded Results Page/Results"), "thumbnail.png"): Actual text and expected text of test object 'Object Repository/carga_1/Page_Uploaded Results Page/Page_Uploaded Results Page/Results' are matched.
+
+2022-12-20 09:31:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/carga_1/Page_Uploaded Results Page/Page_Uploaded Results Page/Results' are matched.
+
+2022-12-20 09:31:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-20 09:31:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-20 09:31:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:31:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reto_3/Reto_3" time="18.5" classname="Test Cases/Reto_3/Reto_3" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:31:54 - [TEST_CASE][PASSED] - Test Cases/Reto_3/Reto_3: Test Cases/Reto_3/Reto_3
+
+2022-12-20 09:31:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:31:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:31:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:31:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:31:57 - [TEST_STEP][PASSED] - navigateToUrl("https://testingqarvn.com.es/datos-personales/"): Navigate to 'https://testingqarvn.com.es/datos-personales/' successfully
+
+2022-12-20 09:32:06 - [MESSAGE][PASSED] - Navigate to 'https://testingqarvn.com.es/datos-personales/' successfully
+
+2022-12-20 09:32:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:32:06 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:32:06 - [TEST_STEP][PASSED] - scrollToPosition(0, 600): Browser is scrolled to position x = 0, y = 600
+
+2022-12-20 09:32:06 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 600
+
+2022-12-20 09:32:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/h2_Datos Personales Bsicos"), "Datos Personales Básicos"): Actual text and expected text of test object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/h2_Datos Personales Bsicos' are matched.
+
+2022-12-20 09:32:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/h2_Datos Personales Bsicos' are matched.
+
+2022-12-20 09:32:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21"), "Tester New"): Text 'Tester New' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21'
+
+2022-12-20 09:32:08 - [MESSAGE][PASSED] - Text 'Tester New' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21'
+
+2022-12-20 09:32:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Apellidos_field_22"), "Automate"): Text 'Automate' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Apellidos_field_22'
+
+2022-12-20 09:32:09 - [MESSAGE][PASSED] - Text 'Automate' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Apellidos_field_22'
+
+2022-12-20 09:32:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Email_field_23"), "prueba@hotmail.com"): Text 'prueba@hotmail.com' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Email_field_23'
+
+2022-12-20 09:32:10 - [MESSAGE][PASSED] - Text 'prueba@hotmail.com' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Email_field_23'
+
+2022-12-20 09:32:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Phone_field_24"), "8098879879"): Text '8098879879' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Phone_field_24'
+
+2022-12-20 09:32:11 - [MESSAGE][PASSED] - Text '8098879879' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/input_Phone_field_24'
+
+2022-12-20 09:32:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/textarea_Direccin_field_28"), "Direccion 1"): Text 'Direccion 1' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/textarea_Direccin_field_28'
+
+2022-12-20 09:32:12 - [MESSAGE][PASSED] - Text 'Direccion 1' is set on object 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/textarea_Direccin_field_28'
+
+2022-12-20 09:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/button_Submit")): Object: 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/button_Submit' is clicked on
+
+2022-12-20 09:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_3/Page_Datos Personales  TestingQaRvn/button_Submit' is clicked on
+
+2022-12-20 09:32:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:32:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Set_text_Combo_texto/Set_text_Combo_texto" time="42.695" classname="Test Cases/Set_text_Combo_texto/Set_text_Combo_texto" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:32:13 - [TEST_CASE][PASSED] - Test Cases/Set_text_Combo_texto/Set_text_Combo_texto: Test Cases/Set_text_Combo_texto/Set_text_Combo_texto
+
+2022-12-20 09:32:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:32:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:32:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:32:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:32:16 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-20 09:32:45 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-20 09:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName")): Object: 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName' is clicked on
+
+2022-12-20 09:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName' is clicked on
+
+2022-12-20 09:32:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName"), "Jose"): Text 'Jose' is set on object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:47 - [MESSAGE][PASSED] - Text 'Jose' is set on object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("set_text_combo_texto/Page_ToolsQA/input_Name_firstName"), " Reyes"): Keys ' Reyes' sent to object: 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:47 - [MESSAGE][PASSED] - Keys ' Reyes' sent to object: 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:47 - [TEST_STEP][PASSED] - clearText(findTestObject("set_text_combo_texto/Page_ToolsQA/input_Name_firstName")): Text of object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName' is cleared
+
+2022-12-20 09:32:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName' is cleared
+
+2022-12-20 09:32:48 - [TEST_STEP][PASSED] - setText(findTestObject("set_text_combo_texto/Page_ToolsQA/input_Name_firstName"), "Alfonso Lora"): Text 'Alfonso Lora' is set on object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:49 - [MESSAGE][PASSED] - Text 'Alfonso Lora' is set on object 'Object Repository/set_text_combo_texto/Page_ToolsQA/input_Name_firstName'
+
+2022-12-20 09:32:49 - [TEST_STEP][PASSED] - delay(Tiempo): Delayed 2 second(s)
+
+2022-12-20 09:32:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:32:51 - [TEST_STEP][PASSED] - check(findTestObject("set_text_combo_texto/Page_ToolsQA/label_Male")): Object 'Object Repository/set_text_combo_texto/Page_ToolsQA/label_Male' is checked
+
+2022-12-20 09:32:52 - [MESSAGE][PASSED] - Object 'Object Repository/set_text_combo_texto/Page_ToolsQA/label_Male' is checked
+
+2022-12-20 09:32:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("set_text_combo_texto/Page_ToolsQA/hobbies_check"), 0): Scroll to object 'Object Repository/set_text_combo_texto/Page_ToolsQA/hobbies_check' successfully
+
+2022-12-20 09:32:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 09:32:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/set_text_combo_texto/Page_ToolsQA/hobbies_check' successfully
+
+2022-12-20 09:32:52 - [TEST_STEP][PASSED] - check(findTestObject("set_text_combo_texto/Page_ToolsQA/hobbies_check")): Object 'Object Repository/set_text_combo_texto/Page_ToolsQA/hobbies_check' is checked
+
+2022-12-20 09:32:53 - [MESSAGE][PASSED] - Object 'Object Repository/set_text_combo_texto/Page_ToolsQA/hobbies_check' is checked
+
+2022-12-20 09:32:53 - [TEST_STEP][PASSED] - delay(Tiempo): Delayed 2 second(s)
+
+2022-12-20 09:32:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:32:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:32:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-20 09:30:28 - [TEST_SUITE][PASSED] - Test_suite_1: Test Cases/Set_text_Combo_texto/Set_text_Combo_texto]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Test_suite_2" tests="4" failures="0" errors="0" time="147.25" skipped="0" timestamp="2022-12-20 09:30:37" hostname="gabrielcrooke - 192.168.4.65" id="Test Suites/Test_suite_2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_2/20221220_092914"/>
+         <property name="logFiles" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_2/20221220_092914/execution0.log"/>
+         <property name="attachments" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/testScreen1.png, /Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/testScreen12.png"/>
+         <property name="hostName" value="gabrielcrooke - 192.168.4.65"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.3.208"/>
+         <property name="browser" value="Firefox 108.0"/>
+         <property name="hostAddress" value="192.168.4.65"/>
+         <property name="sessionId" value="555f032f-1241-4b8c-b960-aff1cf1f570e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Reto_2/Reto_2" time="65.259" classname="Test Cases/Reto_2/Reto_2" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:30:38 - [TEST_CASE][PASSED] - Test Cases/Reto_2/Reto_2: Test Cases/Reto_2/Reto_2
+
+2022-12-20 09:30:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:30:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-20 09:30:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:30:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:30:45 - [TEST_STEP][PASSED] - navigateToUrl("https://opencart.abstracta.us/"): Navigate to 'https://opencart.abstracta.us/' successfully
+
+2022-12-20 09:31:02 - [MESSAGE][PASSED] - Navigate to 'https://opencart.abstracta.us/' successfully
+
+2022-12-20 09:31:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:31:03 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:31:03 - [TEST_STEP][PASSED] - click(findTestObject("Reto_2/Page_Your Store/img_Featured_img-responsive")): Object: 'Object Repository/Reto_2/Page_Your Store/img_Featured_img-responsive' is clicked on
+
+2022-12-20 09:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_2/Page_Your Store/img_Featured_img-responsive' is clicked on
+
+2022-12-20 09:31:14 - [TEST_STEP][PASSED] - click(findTestObject("Reto_2/Page_MacBook/img")): Object: 'Object Repository/Reto_2/Page_MacBook/img' is clicked on
+
+2022-12-20 09:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_2/Page_MacBook/img' is clicked on
+
+2022-12-20 09:31:14 - [TEST_STEP][PASSED] - click(findTestObject("Reto_2/Page_MacBook/button_2")): Object: 'Object Repository/Reto_2/Page_MacBook/button_2' is clicked on
+
+2022-12-20 09:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_2/Page_MacBook/button_2' is clicked on
+
+2022-12-20 09:31:15 - [TEST_STEP][PASSED] - clearText(findTestObject("Reto_2/Page_MacBook/input_Qty_quantity")): Text of object 'Object Repository/Reto_2/Page_MacBook/input_Qty_quantity' is cleared
+
+2022-12-20 09:31:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Reto_2/Page_MacBook/input_Qty_quantity' is cleared
+
+2022-12-20 09:31:16 - [TEST_STEP][PASSED] - setText(findTestObject("Reto_2/Page_MacBook/input_Qty_quantity"), "2"): Text '2' is set on object 'Object Repository/Reto_2/Page_MacBook/input_Qty_quantity'
+
+2022-12-20 09:31:17 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Reto_2/Page_MacBook/input_Qty_quantity'
+
+2022-12-20 09:31:17 - [TEST_STEP][PASSED] - click(findTestObject("Reto_2/Page_MacBook/button_Add to Cart")): Object: 'Object Repository/Reto_2/Page_MacBook/button_Add to Cart' is clicked on
+
+2022-12-20 09:31:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_2/Page_MacBook/button_Add to Cart' is clicked on
+
+2022-12-20 09:31:18 - [TEST_STEP][PASSED] - click(findTestObject("Reto_2/Page_MacBook/button_1 item(s) - 602.00")): Object: 'Object Repository/Reto_2/Page_MacBook/button_1 item(s) - 602.00' is clicked on
+
+2022-12-20 09:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_2/Page_MacBook/button_1 item(s) - 602.00' is clicked on
+
+2022-12-20 09:31:19 - [TEST_STEP][PASSED] - click(findTestObject("Reto_2/Page_MacBook/strong_View Cart")): Object: 'Object Repository/Reto_2/Page_MacBook/strong_View Cart' is clicked on
+
+2022-12-20 09:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_2/Page_MacBook/strong_View Cart' is clicked on
+
+2022-12-20 09:31:20 - [TEST_STEP][PASSED] - click(findTestObject("Reto_2/Page_Shopping Cart/a_Checkout")): Object: 'Object Repository/Reto_2/Page_Shopping Cart/a_Checkout' is clicked on
+
+2022-12-20 09:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_2/Page_Shopping Cart/a_Checkout' is clicked on
+
+2022-12-20 09:31:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:31:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_script/Test_script" time="34.755" classname="Test Cases/Test_script/Test_script" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:31:43 - [TEST_CASE][PASSED] - Test Cases/Test_script/Test_script: Test Cases/Test_script/Test_script
+
+2022-12-20 09:31:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:31:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-20 09:31:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:31:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:31:47 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/text-box"): Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-12-20 09:32:11 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/text-box' successfully
+
+2022-12-20 09:32:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:32:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:32:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_script/Page_ToolsQA/input_Full Name_userName"), "Tester Profile"): Text 'Tester Profile' is set on object 'Object Repository/Test_script/Page_ToolsQA/input_Full Name_userName'
+
+2022-12-20 09:32:13 - [MESSAGE][PASSED] - Text 'Tester Profile' is set on object 'Object Repository/Test_script/Page_ToolsQA/input_Full Name_userName'
+
+2022-12-20 09:32:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_script/Page_ToolsQA/input_Email_userEmail"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Test_script/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-20 09:32:14 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Test_script/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-20 09:32:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_script/Page_ToolsQA/textarea_Current Address_currentAddress"), "Direccion 1"): Text 'Direccion 1' is set on object 'Object Repository/Test_script/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-12-20 09:32:15 - [MESSAGE][PASSED] - Text 'Direccion 1' is set on object 'Object Repository/Test_script/Page_ToolsQA/textarea_Current Address_currentAddress'
+
+2022-12-20 09:32:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_script/Page_ToolsQA/textarea_Permanent Address_permanentAddress"), "Direccion 2"): Text 'Direccion 2' is set on object 'Object Repository/Test_script/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-12-20 09:32:16 - [MESSAGE][PASSED] - Text 'Direccion 2' is set on object 'Object Repository/Test_script/Page_ToolsQA/textarea_Permanent Address_permanentAddress'
+
+2022-12-20 09:32:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Test_script/Page_ToolsQA/button_Submit"), 0): Scroll to object 'Object Repository/Test_script/Page_ToolsQA/button_Submit' successfully
+
+2022-12-20 09:32:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 09:32:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Test_script/Page_ToolsQA/button_Submit' successfully
+
+2022-12-20 09:32:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test_script/Page_ToolsQA/button_Submit")): Object: 'Object Repository/Test_script/Page_ToolsQA/button_Submit' is clicked on
+
+2022-12-20 09:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_script/Page_ToolsQA/button_Submit' is clicked on
+
+2022-12-20 09:32:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:32:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_screenshot/test_screenshot" time="19.327" classname="Test Cases/Test_screenshot/test_screenshot" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:32:18 - [TEST_CASE][PASSED] - Test Cases/Test_screenshot/test_screenshot: Test Cases/Test_screenshot/test_screenshot
+
+2022-12-20 09:32:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:32:18 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-20 09:32:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:32:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:32:22 - [TEST_STEP][PASSED] - navigateToUrl("https://testingqarvn.com.es/datos-personales/"): Navigate to 'https://testingqarvn.com.es/datos-personales/' successfully
+
+2022-12-20 09:32:28 - [MESSAGE][PASSED] - Navigate to 'https://testingqarvn.com.es/datos-personales/' successfully
+
+2022-12-20 09:32:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:32:29 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/label_Nombre")): Object: 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/label_Nombre' is clicked on
+
+2022-12-20 09:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/label_Nombre' is clicked on
+
+2022-12-20 09:32:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("test_screenshot/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21"), 0): Scroll to object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21' successfully
+
+2022-12-20 09:32:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 09:32:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21' successfully
+
+2022-12-20 09:32:30 - [TEST_STEP][PASSED] - setText(findTestObject("test_screenshot/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21"), "Gabriel"): Text 'Gabriel' is set on object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21'
+
+2022-12-20 09:32:30 - [MESSAGE][PASSED] - Text 'Gabriel' is set on object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21'
+
+2022-12-20 09:32:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Apellidos_field_22"), "Crooke"): Text 'Crooke' is set on object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Apellidos_field_22'
+
+2022-12-20 09:32:31 - [MESSAGE][PASSED] - Text 'Crooke' is set on object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Apellidos_field_22'
+
+2022-12-20 09:32:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Email_field_23"), "gabrielcrooke@gmail.com"): Text 'gabrielcrooke@gmail.com' is set on object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Email_field_23'
+
+2022-12-20 09:32:31 - [MESSAGE][PASSED] - Text 'gabrielcrooke@gmail.com' is set on object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Email_field_23'
+
+2022-12-20 09:32:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Phone_field_24"), "8293639861"): Text '8293639861' is set on object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Phone_field_24'
+
+2022-12-20 09:32:32 - [MESSAGE][PASSED] - Text '8293639861' is set on object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Phone_field_24'
+
+2022-12-20 09:32:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/textarea_Direccin_field_28"), "Calle principal #2"): Text 'Calle principal #2' is set on object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/textarea_Direccin_field_28'
+
+2022-12-20 09:32:33 - [MESSAGE][PASSED] - Text 'Calle principal #2' is set on object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/textarea_Direccin_field_28'
+
+2022-12-20 09:32:33 - [TEST_STEP][PASSED] - takeScreenshot("/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/testScreen1.png"): Taking screenshot successfully
+
+2022-12-20 09:32:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/testScreen1.png]]
+
+2022-12-20 09:32:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("test_screenshot/Page_Datos Personales  TestingQaRvn/button_Submit"), 3): Object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/button_Submit' is clickable
+
+2022-12-20 09:32:34 - [MESSAGE][PASSED] - Object 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/button_Submit' is clickable
+
+2022-12-20 09:32:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/button_Submit")): Object: 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/button_Submit' is clicked on
+
+2022-12-20 09:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/button_Submit' is clicked on
+
+2022-12-20 09:32:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/p_Gracias por tu encuesta")): Object: 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/p_Gracias por tu encuesta' is clicked on
+
+2022-12-20 09:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/p_Gracias por tu encuesta' is clicked on
+
+2022-12-20 09:32:36 - [TEST_STEP][PASSED] - takeScreenshot("/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/testScreen12.png"): Taking screenshot successfully
+
+2022-12-20 09:32:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/testScreen12.png]]
+
+2022-12-20 09:32:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:32:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/variable_1/variable_1" time="27.367" classname="Test Cases/variable_1/variable_1" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:32:37 - [TEST_CASE][PASSED] - Test Cases/variable_1/variable_1: Test Cases/variable_1/variable_1
+
+2022-12-20 09:32:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:32:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-20 09:32:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:32:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:32:42 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/webtables"): Navigate to 'https://demoqa.com/webtables' successfully
+
+2022-12-20 09:32:54 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/webtables' successfully
+
+2022-12-20 09:32:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:32:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/variable_1/Page_ToolsQA/button_Add")): Object: 'Object Repository/variable_1/Page_ToolsQA/button_Add' is clicked on
+
+2022-12-20 09:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/variable_1/Page_ToolsQA/button_Add' is clicked on
+
+2022-12-20 09:32:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/variable_1/Page_ToolsQA/input_First Name_firstName"), firstName): Text 'Gabriel' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_First Name_firstName'
+
+2022-12-20 09:32:56 - [MESSAGE][PASSED] - Text 'Gabriel' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_First Name_firstName'
+
+2022-12-20 09:32:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/variable_1/Page_ToolsQA/input_Last Name_lastName"), lastName): Text 'Crooke' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_Last Name_lastName'
+
+2022-12-20 09:32:57 - [MESSAGE][PASSED] - Text 'Crooke' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_Last Name_lastName'
+
+2022-12-20 09:32:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/variable_1/Page_ToolsQA/input_Email_userEmail"), textEmail): Text 'gabrielcrooke@gmail.com' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-20 09:32:58 - [MESSAGE][PASSED] - Text 'gabrielcrooke@gmail.com' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-20 09:32:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/variable_1/Page_ToolsQA/input_Age_age"), textAge): Text '25' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_Age_age'
+
+2022-12-20 09:32:58 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_Age_age'
+
+2022-12-20 09:32:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/variable_1/Page_ToolsQA/input_Salary_salary"), textSalary): Text '65000' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_Salary_salary'
+
+2022-12-20 09:32:59 - [MESSAGE][PASSED] - Text '65000' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_Salary_salary'
+
+2022-12-20 09:32:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/variable_1/Page_ToolsQA/input_Department_department"), textDepartment): Text 'QA' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_Department_department'
+
+2022-12-20 09:33:00 - [MESSAGE][PASSED] - Text 'QA' is set on object 'Object Repository/variable_1/Page_ToolsQA/input_Department_department'
+
+2022-12-20 09:33:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/variable_1/Page_ToolsQA/button_Submit")): Object: 'Object Repository/variable_1/Page_ToolsQA/button_Submit' is clicked on
+
+2022-12-20 09:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/variable_1/Page_ToolsQA/button_Submit' is clicked on
+
+2022-12-20 09:33:00 - [TEST_STEP][PASSED] - delay(time): Delayed 3 second(s)
+
+2022-12-20 09:33:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-20 09:33:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:33:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-20 09:30:37 - [TEST_SUITE][PASSED] - Test_suite_2: Test Cases/variable_1/variable_1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Test_suite_3" tests="4" failures="0" errors="0" time="51.078" skipped="0" timestamp="2022-12-20 09:33:13" hostname="gabrielcrooke - 192.168.4.65" id="Test Suites/Test_suite_3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_3/20221220_092935"/>
+         <property name="logFiles" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_3/20221220_092935/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gabrielcrooke - 192.168.4.65"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.3.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.4.65"/>
+         <property name="sessionId" value="889765ffcc5ed3c3adb52420ed7a2df5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/google/google" time="18.923" classname="Test Cases/google/google" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:33:14 - [TEST_CASE][PASSED] - Test Cases/google/google: Test Cases/google/google
+
+2022-12-20 09:33:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:33:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:33:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:33:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:33:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-12-20 09:33:20 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-12-20 09:33:20 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2022-12-20 09:33:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 09:33:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-12-20 09:33:20 - [TEST_STEP][PASSED] - setText(findTestObject("google/searchbox"), "ferr"): Text 'ferr' is set on object 'Object Repository/google/searchbox'
+
+2022-12-20 09:33:21 - [MESSAGE][PASSED] - Text 'ferr' is set on object 'Object Repository/google/searchbox'
+
+2022-12-20 09:33:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("google/ferrari"), 5): Object 'Object Repository/google/ferrari' is visible
+
+2022-12-20 09:33:22 - [MESSAGE][PASSED] - Object 'Object Repository/google/ferrari' is visible
+
+2022-12-20 09:33:22 - [TEST_STEP][PASSED] - click(findTestObject("google/ferrari")): Object: 'Object Repository/google/ferrari' is clicked on
+
+2022-12-20 09:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/google/ferrari' is clicked on
+
+2022-12-20 09:33:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-20 09:33:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-20 09:33:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:33:33 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mouse_over/Mouse_over" time="11.857" classname="Test Cases/Mouse_over/Mouse_over" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:33:33 - [TEST_CASE][PASSED] - Test Cases/Mouse_over/Mouse_over: Test Cases/Mouse_over/Mouse_over
+
+2022-12-20 09:33:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:33:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-12-20 09:33:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:33:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:33:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:33:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.mercadolibre.com.mx/"): Navigate to 'https://www.mercadolibre.com.mx/' successfully
+
+2022-12-20 09:33:39 - [MESSAGE][PASSED] - Navigate to 'https://www.mercadolibre.com.mx/' successfully
+
+2022-12-20 09:33:39 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-12-20 09:33:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-12-20 09:33:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:33:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:33:40 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras")): Object: 'Object Repository/mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras' is hovered
+
+2022-12-20 09:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras' is hovered
+
+2022-12-20 09:33:40 - [TEST_STEP][PASSED] - rightClick(findTestObject("mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras")): Object: 'Object Repository/mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras' is right clicked on
+
+2022-12-20 09:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras' is right clicked on
+
+2022-12-20 09:33:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-12-20 09:33:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:33:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:33:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/qaInterview" time="7.932" classname="Test Cases/qaInterview" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:33:45 - [TEST_CASE][PASSED] - Test Cases/qaInterview: Test Cases/qaInterview
+
+2022-12-20 09:33:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:33:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:33:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:33:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:33:47 - [TEST_STEP][PASSED] - navigateToUrl("https://qainterview.pythonanywhere.com/"): Navigate to 'https://qainterview.pythonanywhere.com/' successfully
+
+2022-12-20 09:33:49 - [MESSAGE][PASSED] - Navigate to 'https://qainterview.pythonanywhere.com/' successfully
+
+2022-12-20 09:33:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:33:49 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:33:49 - [TEST_STEP][PASSED] - setText(findTestObject("qaInterview/Page_Factoriall/input_The greatest factorial calculator_number"), "5"): Text '5' is set on object 'Object Repository/qaInterview/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2022-12-20 09:33:50 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/qaInterview/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2022-12-20 09:33:50 - [TEST_STEP][PASSED] - click(findTestObject("qaInterview/Page_Factoriall/button_Calculate")): Object: 'Object Repository/qaInterview/Page_Factoriall/button_Calculate' is clicked on
+
+2022-12-20 09:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/qaInterview/Page_Factoriall/button_Calculate' is clicked on
+
+2022-12-20 09:33:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-12-20 09:33:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-12-20 09:33:52 - [TEST_STEP][PASSED] - resultado = getText(findTestObject("qaInterview/Page_Factoriall/factorialResult")): Text of object 'Object Repository/qaInterview/Page_Factoriall/factorialResult' is: 'The factorial of 5 is: 120'
+
+2022-12-20 09:33:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/qaInterview/Page_Factoriall/factorialResult' is: 'The factorial of 5 is: 120'
+
+2022-12-20 09:33:52 - [TEST_STEP][PASSED] - print(resultado): null
+
+2022-12-20 09:33:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:33:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Find user by ID" time="11.973" classname="Test Cases/Find user by ID" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:33:53 - [TEST_CASE][PASSED] - Test Cases/Find user by ID: Test Cases/Find user by ID
+
+2022-12-20 09:33:54 - [TEST_STEP][PASSED] - id = sample.Common.createNewUser(age, username, password, gender, 200): sample.Common.createNewUser is PASSED
+
+2022-12-20 09:34:03 - [MESSAGE][INFO] - HAR: /Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_3/20221220_092935/requests/main/0.har
+
+2022-12-20 09:34:03 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - sample.Common.createNewUser is PASSED
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - sample.Common.findUserById(id, age, username, password, gender, 200): sample.Common.findUserById is PASSED
+
+2022-12-20 09:34:04 - [MESSAGE][INFO] - HAR: /Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_3/20221220_092935/requests/main/1.har
+
+2022-12-20 09:34:04 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-12-20 09:34:04 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-12-20 09:34:04 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-12-20 09:34:04 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2022-12-20 09:34:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2022-12-20 09:34:04 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - sample.Common.findUserById is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-20 09:33:13 - [TEST_SUITE][PASSED] - Test_suite_3: Test Cases/Find user by ID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Test_suite_4" tests="6" failures="2" errors="0" time="516.244" skipped="0" timestamp="2022-12-20 09:33:30" hostname="gabrielcrooke - 192.168.4.65" id="Test Suites/Test_suite_4">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_4/20221220_092955"/>
+         <property name="logFiles" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_4/20221220_092955/execution0.log"/>
+         <property name="attachments" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_4/20221220_092955/1671543396266.png, /Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_4/20221220_092955/1671543472498.png, /Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_4/20221220_092955/1671543545926.png, /Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_4/20221220_092955/1671543597423.png"/>
+         <property name="hostName" value="gabrielcrooke - 192.168.4.65"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.3.208"/>
+         <property name="browser" value="Firefox 108.0"/>
+         <property name="hostAddress" value="192.168.4.65"/>
+         <property name="sessionId" value="914f144b-a00c-4575-8a61-30db842f00f6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Eventos_Mouse/Double_click" time="24.859" classname="Test Cases/Eventos_Mouse/Double_click" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:33:30 - [TEST_CASE][PASSED] - Test Cases/Eventos_Mouse/Double_click: Test Cases/Eventos_Mouse/Double_click
+
+2022-12-20 09:33:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:33:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-20 09:33:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:33:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:33:37 - [TEST_STEP][PASSED] - navigateToUrl("https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx"): Navigate to 'https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx' successfully
+
+2022-12-20 09:33:48 - [MESSAGE][PASSED] - Navigate to 'https://demos.telerik.com/aspnet-ajax/treeview/examples/overview/defaultcs.aspx' successfully
+
+2022-12-20 09:33:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:33:49 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:33:49 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2022-12-20 09:33:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-12-20 09:33:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island")): Object: 'Object Repository/double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island' is clicked on
+
+2022-12-20 09:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island' is clicked on
+
+2022-12-20 09:33:50 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island")): Object: 'Object Repository/double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island' is double clicked on
+
+2022-12-20 09:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/double_click/Page_Telerik Web UI TreeView Overview Demo _6fd094/span_Island' is double clicked on
+
+2022-12-20 09:33:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-12-20 09:33:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:33:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:33:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eventos_Mouse/focus" time="69.01" classname="Test Cases/Eventos_Mouse/focus" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:33:55 - [TEST_CASE][PASSED] - Test Cases/Eventos_Mouse/focus: Test Cases/Eventos_Mouse/focus
+
+2022-12-20 09:33:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:33:56 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-20 09:33:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:33:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:33:59 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-20 09:34:51 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-20 09:34:51 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2022-12-20 09:34:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 09:34:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-12-20 09:34:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:34:51 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:34:51 - [TEST_STEP][PASSED] - focus(findTestObject("Object Repository/focus/Page_ToolsQA/input_Name_firstName")): Object: 'Object Repository/focus/Page_ToolsQA/input_Name_firstName' is focused
+
+2022-12-20 09:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/focus/Page_ToolsQA/input_Name_firstName' is focused
+
+2022-12-20 09:34:52 - [TEST_STEP][PASSED] - delay(tiempo): Delayed 2 second(s)
+
+2022-12-20 09:34:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:34:54 - [TEST_STEP][PASSED] - focus(findTestObject("Object Repository/focus/Page_ToolsQA/input_Name_lastName")): Object: 'Object Repository/focus/Page_ToolsQA/input_Name_lastName' is focused
+
+2022-12-20 09:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/focus/Page_ToolsQA/input_Name_lastName' is focused
+
+2022-12-20 09:34:54 - [TEST_STEP][PASSED] - delay(tiempo): Delayed 2 second(s)
+
+2022-12-20 09:34:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:34:56 - [TEST_STEP][PASSED] - focus(findTestObject("Object Repository/focus/Page_ToolsQA/input_Email_userEmail")): Object: 'Object Repository/focus/Page_ToolsQA/input_Email_userEmail' is focused
+
+2022-12-20 09:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/focus/Page_ToolsQA/input_Email_userEmail' is focused
+
+2022-12-20 09:34:56 - [TEST_STEP][PASSED] - delay(tiempo): Delayed 2 second(s)
+
+2022-12-20 09:34:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:34:58 - [TEST_STEP][PASSED] - focus(findTestObject("Object Repository/focus/Page_ToolsQA/input_(10 Digits)_userNumber")): Object: 'Object Repository/focus/Page_ToolsQA/input_(10 Digits)_userNumber' is focused
+
+2022-12-20 09:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/focus/Page_ToolsQA/input_(10 Digits)_userNumber' is focused
+
+2022-12-20 09:34:59 - [TEST_STEP][PASSED] - delay(tiempo): Delayed 2 second(s)
+
+2022-12-20 09:35:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:35:01 - [TEST_STEP][PASSED] - focus(findTestObject("Object Repository/focus/Page_ToolsQA/input_Date of Birth_dateOfBirthInput")): Object: 'Object Repository/focus/Page_ToolsQA/input_Date of Birth_dateOfBirthInput' is focused
+
+2022-12-20 09:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/focus/Page_ToolsQA/input_Date of Birth_dateOfBirthInput' is focused
+
+2022-12-20 09:35:01 - [TEST_STEP][PASSED] - delay(tiempo): Delayed 2 second(s)
+
+2022-12-20 09:35:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:35:03 - [TEST_STEP][PASSED] - focus(findTestObject("Object Repository/focus/Page_ToolsQA/div_Subjects_subjects-auto-complete__value-_d244cf")): Object: 'Object Repository/focus/Page_ToolsQA/div_Subjects_subjects-auto-complete__value-_d244cf' is focused
+
+2022-12-20 09:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/focus/Page_ToolsQA/div_Subjects_subjects-auto-complete__value-_d244cf' is focused
+
+2022-12-20 09:35:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:35:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eventos_Mouse/draw_drop" time="25.795" classname="Test Cases/Eventos_Mouse/draw_drop" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:35:04 - [TEST_CASE][PASSED] - Test Cases/Eventos_Mouse/draw_drop: Test Cases/Eventos_Mouse/draw_drop
+
+2022-12-20 09:35:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:35:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-20 09:35:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:35:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:35:07 - [TEST_STEP][PASSED] - navigateToUrl("https://demos.telerik.com/aspnet-ajax/treeview/examples/functionality/draganddropnodes/defaultcs.aspx"): Navigate to 'https://demos.telerik.com/aspnet-ajax/treeview/examples/functionality/draganddropnodes/defaultcs.aspx' successfully
+
+2022-12-20 09:35:19 - [MESSAGE][PASSED] - Navigate to 'https://demos.telerik.com/aspnet-ajax/treeview/examples/functionality/draganddropnodes/defaultcs.aspx' successfully
+
+2022-12-20 09:35:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:35:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:35:19 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-12-20 09:35:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-12-20 09:35:19 - [TEST_STEP][PASSED] - scrollToPosition(0, 300): Browser is scrolled to position x = 0, y = 300
+
+2022-12-20 09:35:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 300
+
+2022-12-20 09:35:19 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Object Repository/draw_drop/carpeta1"), findTestObject("Object Repository/draw_drop/textbox")): Dragged object with id 'Object Repository/draw_drop/carpeta1' to object with id 'TestObject - 'Object Repository/draw_drop/textbox'' successfully
+
+2022-12-20 09:35:22 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/draw_drop/carpeta1' to object with id 'TestObject - 'Object Repository/draw_drop/textbox'' successfully
+
+2022-12-20 09:35:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-12-20 09:35:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-12-20 09:35:23 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Object Repository/draw_drop/carpeta2"), findTestObject("Object Repository/draw_drop/textbox")): Dragged object with id 'Object Repository/draw_drop/carpeta2' to object with id 'TestObject - 'Object Repository/draw_drop/textbox'' successfully
+
+2022-12-20 09:35:26 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/draw_drop/carpeta2' to object with id 'TestObject - 'Object Repository/draw_drop/textbox'' successfully
+
+2022-12-20 09:35:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-20 09:35:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-20 09:35:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:35:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select/Select" time="14.247" classname="Test Cases/Select/Select" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:35:30 - [TEST_CASE][PASSED] - Test Cases/Select/Select: Test Cases/Select/Select
+
+2022-12-20 09:35:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:35:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-20 09:35:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:35:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:35:33 - [TEST_STEP][PASSED] - navigateToUrl("https://testingqarvn.com.es/combobox/"): Navigate to 'https://testingqarvn.com.es/combobox/' successfully
+
+2022-12-20 09:35:35 - [MESSAGE][PASSED] - Navigate to 'https://testingqarvn.com.es/combobox/' successfully
+
+2022-12-20 09:35:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:35:35 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:35:35 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac"), "Linux", false): All options with label 'Linux' are selected in object 'Object Repository/Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac' 
+
+2022-12-20 09:35:36 - [MESSAGE][PASSED] - All options with label 'Linux' are selected in object 'Object Repository/Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac' 
+
+2022-12-20 09:35:36 - [TEST_STEP][PASSED] - delay(Tiempo): Delayed 2 second(s)
+
+2022-12-20 09:35:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:35:38 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac"), 2): All options with index in [2] are selected on object 'Object Repository/Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac'
+
+2022-12-20 09:35:39 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac'
+
+2022-12-20 09:35:39 - [TEST_STEP][PASSED] - delay(Tiempo): Delayed 2 second(s)
+
+2022-12-20 09:35:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:35:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac"), "Windows", false): All options with value 'Windows' are selected in object 'Object Repository/Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac' 
+
+2022-12-20 09:35:42 - [MESSAGE][PASSED] - All options with value 'Windows' are selected in object 'Object Repository/Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac' 
+
+2022-12-20 09:35:42 - [TEST_STEP][PASSED] - delay(Tiempo): Delayed 2 second(s)
+
+2022-12-20 09:35:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:35:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:35:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reto_selectores/Reto_selectores" time="51.415" classname="Test Cases/Reto_selectores/Reto_selectores" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Reto_selectores/Reto_selectores FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Reto_selectores/check_hobbie'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Reto_selectores.run(Reto_selectores:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;> is not clickable at point (785,632) because another element &lt;iframe id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; name=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot;> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Gabriels-MacBook-Pro.local', ip: 'fe80:0:0:0:45f:a4ac:de61:406d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 59304, moz:profile: /var/folders/rk/qtfk8trs20g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc0e2741-760d-4f33-988f-57949bf114ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-12-20 09:39:06 - [TEST_CASE][FAILED] - Test Cases/Reto_selectores/Reto_selectores: Test Cases/Reto_selectores/Reto_selectores FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Reto_selectores/check_hobbie'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Reto_selectores.run(Reto_selectores:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <label class="custom-control-label"> is not clickable at point (785,632) because another element <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Gabriels-MacBook-Pro.local', ip: 'fe80:0:0:0:45f:a4ac:de61:406d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 59304, moz:profile: /var/folders/rk/qtfk8trs20g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc0e2741-760d-4f33-988f-57949bf114ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-12-20 09:39:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:39:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-12-20 09:39:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-20 09:39:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:39:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:39:10 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-20 09:39:23 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-20 09:39:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:39:23 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:39:23 - [TEST_STEP][PASSED] - setText(findTestObject("Reto_selectores/input_name"), "Tanjiro"): Text 'Tanjiro' is set on object 'Object Repository/Reto_selectores/input_name'
+
+2022-12-20 09:39:24 - [MESSAGE][PASSED] - Text 'Tanjiro' is set on object 'Object Repository/Reto_selectores/input_name'
+
+2022-12-20 09:39:24 - [TEST_STEP][PASSED] - setText(findTestObject("Reto_selectores/input_lastname"), "Kamado"): Text 'Kamado' is set on object 'Object Repository/Reto_selectores/input_lastname'
+
+2022-12-20 09:39:25 - [MESSAGE][PASSED] - Text 'Kamado' is set on object 'Object Repository/Reto_selectores/input_lastname'
+
+2022-12-20 09:39:25 - [TEST_STEP][PASSED] - setText(findTestObject("Reto_selectores/input_mail"), "tkamado@outlook.com"): Text 'tkamado@outlook.com' is set on object 'Object Repository/Reto_selectores/input_mail'
+
+2022-12-20 09:39:25 - [MESSAGE][PASSED] - Text 'tkamado@outlook.com' is set on object 'Object Repository/Reto_selectores/input_mail'
+
+2022-12-20 09:39:25 - [TEST_STEP][PASSED] - click(findTestObject("Reto_selectores/radio_female")): Object: 'Object Repository/Reto_selectores/radio_female' is clicked on
+
+2022-12-20 09:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_selectores/radio_female' is clicked on
+
+2022-12-20 09:39:26 - [TEST_STEP][PASSED] - setText(findTestObject("Reto_selectores/input_mobile"), "8287876201"): Text '8287876201' is set on object 'Object Repository/Reto_selectores/input_mobile'
+
+2022-12-20 09:39:26 - [MESSAGE][PASSED] - Text '8287876201' is set on object 'Object Repository/Reto_selectores/input_mobile'
+
+2022-12-20 09:39:26 - [TEST_STEP][FAILED] - click(findTestObject("Reto_selectores/check_hobbie")): Unable to click on object 'Object Repository/Reto_selectores/check_hobbie' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Reto_selectores/check_hobbie'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Reto_selectores.run(Reto_selectores:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <label class="custom-control-label"> is not clickable at point (785,632) because another element <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Gabriels-MacBook-Pro.local', ip: 'fe80:0:0:0:45f:a4ac:de61:406d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 59304, moz:profile: /var/folders/rk/qtfk8trs20g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc0e2741-760d-4f33-988f-57949bf114ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1670598000633.run(Script1670598000633.groovy:36)
+	... 16 more
+)
+
+2022-12-20 09:39:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Reto_selectores/check_hobbie' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Reto_selectores/check_hobbie'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Reto_selectores.run(Reto_selectores:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <label class="custom-control-label"> is not clickable at point (785,632) because another element <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Gabriels-MacBook-Pro.local', ip: 'fe80:0:0:0:45f:a4ac:de61:406d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 59304, moz:profile: /var/folders/rk/qtfk8trs20g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc0e2741-760d-4f33-988f-57949bf114ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1670598000633.run(Script1670598000633.groovy:36)
+	... 16 more
+)
+[[ATTACHMENT|/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_4/20221220_092955/1671543597423.png]]]]></system-out>
+         <system-err><![CDATA[2022-12-20 09:39:06 - [TEST_CASE][FAILED] - Test Cases/Reto_selectores/Reto_selectores: Test Cases/Reto_selectores/Reto_selectores FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Reto_selectores/check_hobbie'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Reto_selectores.run(Reto_selectores:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <label class="custom-control-label"> is not clickable at point (785,632) because another element <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Gabriels-MacBook-Pro.local', ip: 'fe80:0:0:0:45f:a4ac:de61:406d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 59304, moz:profile: /var/folders/rk/qtfk8trs20g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc0e2741-760d-4f33-988f-57949bf114ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reto_1/Reto_1" time="38.972" classname="Test Cases/Reto_1/Reto_1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Reto_1/Reto_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Reto_1.run(Reto_1:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Reto_1.run(Reto_1:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 21 more
+"/>
+         <system-out><![CDATA[2022-12-20 09:41:27 - [TEST_CASE][FAILED] - Test Cases/Reto_1/Reto_1: Test Cases/Reto_1/Reto_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Reto_1.run(Reto_1:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Reto_1.run(Reto_1:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 21 more
+
+
+2022-12-20 09:41:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:41:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-12-20 09:41:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-20 09:41:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:41:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:41:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+2022-12-20 09:41:59 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-12-20 09:41:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:41:59 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/div_Elements_card-up")): Object: 'Object Repository/Reto_1/Page_ToolsQA/div_Elements_card-up' is clicked on
+
+2022-12-20 09:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/div_Elements_card-up' is clicked on
+
+2022-12-20 09:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/li_Check Box")): Object: 'Object Repository/Reto_1/Page_ToolsQA/li_Check Box' is clicked on
+
+2022-12-20 09:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/li_Check Box' is clicked on
+
+2022-12-20 09:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/svg_Book Store API_rct-icon rct-icon-expand-close")): Object: 'Object Repository/Reto_1/Page_ToolsQA/svg_Book Store API_rct-icon rct-icon-expand-close' is clicked on
+
+2022-12-20 09:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/svg_Book Store API_rct-icon rct-icon-expand-close' is clicked on
+
+2022-12-20 09:42:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/span_Desktop")): Object: 'Object Repository/Reto_1/Page_ToolsQA/span_Desktop' is clicked on
+
+2022-12-20 09:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/span_Desktop' is clicked on
+
+2022-12-20 09:42:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/span_Documents")): Object: 'Object Repository/Reto_1/Page_ToolsQA/span_Documents' is clicked on
+
+2022-12-20 09:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/span_Documents' is clicked on
+
+2022-12-20 09:42:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/span_Downloads")): Object: 'Object Repository/Reto_1/Page_ToolsQA/span_Downloads' is clicked on
+
+2022-12-20 09:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/span_Downloads' is clicked on
+
+2022-12-20 09:42:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/span_Home")): Object: 'Object Repository/Reto_1/Page_ToolsQA/span_Home' is clicked on
+
+2022-12-20 09:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/span_Home' is clicked on
+
+2022-12-20 09:42:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/span_Home")): Object: 'Object Repository/Reto_1/Page_ToolsQA/span_Home' is clicked on
+
+2022-12-20 09:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/span_Home' is clicked on
+
+2022-12-20 09:42:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/li_Radio Button")): Object: 'Object Repository/Reto_1/Page_ToolsQA/li_Radio Button' is clicked on
+
+2022-12-20 09:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/li_Radio Button' is clicked on
+
+2022-12-20 09:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/label_Yes")): Object: 'Object Repository/Reto_1/Page_ToolsQA/label_Yes' is clicked on
+
+2022-12-20 09:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/label_Yes' is clicked on
+
+2022-12-20 09:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/label_Impressive")): Object: 'Object Repository/Reto_1/Page_ToolsQA/label_Impressive' is clicked on
+
+2022-12-20 09:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/label_Impressive' is clicked on
+
+2022-12-20 09:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Reto_1/Page_ToolsQA/label_Yes")): Object: 'Object Repository/Reto_1/Page_ToolsQA/label_Yes' is clicked on
+
+2022-12-20 09:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Reto_1/Page_ToolsQA/label_Yes' is clicked on
+
+2022-12-20 09:42:06 - [TEST_STEP][FAILED] - delay(delayTiempo): Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Reto_1.run(Reto_1:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+)
+
+2022-12-20 09:42:06 - [MESSAGE][FAILED] - Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Reto_1.run(Reto_1:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-12-20 09:41:27 - [TEST_CASE][FAILED] - Test Cases/Reto_1/Reto_1: Test Cases/Reto_1/Reto_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to delay browser (Root cause: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Reto_1.run(Reto_1:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.delay(DelayKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword.execute(DelayKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.delay(BuiltinKeywords.groovy:375)
+	at Reto_1.run(Reto_1:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+Caused by: java.lang.NullPointerException
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.doCall(DelayKeyword.groovy:51)
+	at com.kms.katalon.core.keyword.builtin.DelayKeyword$_delay_closure1.call(DelayKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 21 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-20 09:33:30 - [TEST_SUITE][FAILED] - Test_suite_4: Test Cases/Reto_selectores/Reto_selectores FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Reto_selectores/check_hobbie'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Reto_selectores.run(Reto_selectores:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <label class="custom-control-label"> is not clickable at point (785,632) because another element <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="" src="https://02ac626927ea4b4f53af67d28ae40bbb.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Gabriels-MacBook-Pro.local', ip: 'fe80:0:0:0:45f:a4ac:de61:406d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 59204, moz:profile: /var/folders/rk/qtfk8trs20g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8e564da3-9770-48d5-bd71-f19854b1bb1c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-12-20 09:33:30 - [TEST_SUITE][FAILED] - Test_suite_4: Test Cases/Reto_selectores/Reto_selectores FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Reto_selectores/check_hobbie'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Reto_selectores.run(Reto_selectores:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671542995964.run(TempTestSuite1671542995964.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <label class="custom-control-label"> is not clickable at point (785,632) because another element <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="" src="https://02ac626927ea4b4f53af67d28ae40bbb.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Gabriels-MacBook-Pro.local', ip: 'fe80:0:0:0:45f:a4ac:de61:406d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 22.1.0, moz:processID: 59204, moz:profile: /var/folders/rk/qtfk8trs20g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8e564da3-9770-48d5-bd71-f19854b1bb1c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

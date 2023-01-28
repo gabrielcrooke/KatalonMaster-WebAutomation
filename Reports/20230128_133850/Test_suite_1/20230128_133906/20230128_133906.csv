@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_1,,,,2023-01-28 13:39:20,2023-01-28 13:39:42,21.469s,FAILED
+,,,,,,,
+Test Cases/Navegador/Navegador,,,,2023-01-28 13:39:21,2023-01-28 13:39:34,13.430s,FAILED
+"openBrowser(""https://demoqa.com/automation-practice-form"")",,,,2023-01-28 13:39:21,2023-01-28 13:39:34,13.263s,FAILED
+,,,,,,,
+Test Cases/Carga_1/Carga_1,,,,2023-01-28 13:39:34,2023-01-28 13:39:37,3.050s,FAILED
+"openBrowser("""")",,,,2023-01-28 13:39:35,2023-01-28 13:39:37,2.861s,FAILED
+,,,,,,,
+Test Cases/Reto_3/Reto_3,,,,2023-01-28 13:39:37,2023-01-28 13:39:40,2.334s,FAILED
+"openBrowser("""")",,,,2023-01-28 13:39:38,2023-01-28 13:39:40,2.103s,FAILED
+,,,,,,,
+Test Cases/Set_text_Combo_texto/Set_text_Combo_texto,,,,2023-01-28 13:39:40,2023-01-28 13:39:42,2.124s,FAILED
+"openBrowser("""")",,,,2023-01-28 13:39:40,2023-01-28 13:39:42,1.939s,FAILED

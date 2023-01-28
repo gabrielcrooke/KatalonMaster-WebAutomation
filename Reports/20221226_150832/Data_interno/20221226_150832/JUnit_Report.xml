@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data_interno" time="62.081" tests="2" failures="0" errors="0">
+   <testsuite name="Data_interno" tests="2" failures="0" errors="0" time="62.081" skipped="0" timestamp="2022-12-26 15:08:50" hostname="gabrielcrooke - 192.168.4.254" id="Test Suites/Data_interno">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221226_150832/Data_interno/20221226_150832"/>
+         <property name="logFiles" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221226_150832/Data_interno/20221226_150832/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gabrielcrooke - 192.168.4.254"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.3.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.4.254"/>
+         <property name="sessionId" value="36435dca3659a06acabc719fc439e3ac"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Data_excell/Data_excell" time="24.286" classname="Test Cases/Data_excell/Data_excell" status="PASSED">
+         <system-out><![CDATA[2022-12-26 15:08:50 - [TEST_CASE][PASSED] - Test Cases/Data_excell/Data_excell: Test Cases/Data_excell/Data_excell
+
+2022-12-26 15:08:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-26 15:08:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-26 15:08:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-26 15:08:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-26 15:08:55 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-26 15:09:07 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-26 15:09:07 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-12-26 15:09:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-12-26 15:09:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-26 15:09:07 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-26 15:09:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName"), nombre): Text 'nombre1' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName'
+
+2022-12-26 15:09:10 - [MESSAGE][PASSED] - Text 'nombre1' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName'
+
+2022-12-26 15:09:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName"), apellido): Text 'apellido1' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName'
+
+2022-12-26 15:09:11 - [MESSAGE][PASSED] - Text 'apellido1' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName'
+
+2022-12-26 15:09:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail"), email): Text 'email@gmail.com1' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-26 15:09:13 - [MESSAGE][PASSED] - Text 'email@gmail.com1' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-26 15:09:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-12-26 15:09:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-26 15:09:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-26 15:09:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_excell/Data_excell" time="37.15" classname="Test Cases/Data_excell/Data_excell" status="PASSED">
+         <system-out><![CDATA[2022-12-26 15:09:15 - [TEST_CASE][PASSED] - Test Cases/Data_excell/Data_excell: Test Cases/Data_excell/Data_excell
+
+2022-12-26 15:09:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-26 15:09:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-26 15:09:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-26 15:09:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-26 15:09:17 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-26 15:09:46 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+2022-12-26 15:09:46 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-12-26 15:09:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-12-26 15:09:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-26 15:09:47 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-26 15:09:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName"), nombre): Text 'nombre2' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName'
+
+2022-12-26 15:09:48 - [MESSAGE][PASSED] - Text 'nombre2' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName'
+
+2022-12-26 15:09:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName"), apellido): Text 'apellido2' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName'
+
+2022-12-26 15:09:49 - [MESSAGE][PASSED] - Text 'apellido2' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName'
+
+2022-12-26 15:09:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail"), email): Text 'email@gmail.com2' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-26 15:09:50 - [MESSAGE][PASSED] - Text 'email@gmail.com2' is set on object 'Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail'
+
+2022-12-26 15:09:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-12-26 15:09:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-26 15:09:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-26 15:09:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-26 15:08:50 - [TEST_SUITE][PASSED] - Data_interno: Test Cases/Data_excell/Data_excell]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

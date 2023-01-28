@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integration_tests,Chrome 109.0.0.0,,,2023-01-28 11:57:52,2023-01-28 11:59:42,1m - 50.198s,PASSED
+,,,,,,,
+Test Cases/bucles/Reto_for,Chrome 109.0.0.0,,,2023-01-28 11:57:53,2023-01-28 11:58:40,47.833s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-28 11:57:53,2023-01-28 11:57:59,5.976s,PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 109.0.0.0,,,2023-01-28 11:57:59,2023-01-28 11:58:06,7.316s,PASSED
+waitForPageLoad(10),Chrome 109.0.0.0,,,2023-01-28 11:58:06,2023-01-28 11:58:07,0.524s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-28 11:58:07,2023-01-28 11:58:09,2.126s,PASSED
+"scrollToPosition(0, 250)",Chrome 109.0.0.0,,,2023-01-28 11:58:09,2023-01-28 11:58:09,0.110s,PASSED
+"for ([x = 1, x <= 5, (x++)])",Chrome 109.0.0.0,,,2023-01-28 11:58:09,2023-01-28 11:58:40,31.076s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-28 11:58:40,2023-01-28 11:58:40,0.354s,PASSED
+,,,,,,,
+Test Cases/bucles/Reto_while_solution,Chrome 109.0.0.0,,,2023-01-28 11:58:40,2023-01-28 11:59:42,1m - 1.862s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-28 11:58:41,2023-01-28 11:58:43,2.154s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-28 11:58:43,2023-01-28 11:58:43,0.424s,PASSED
+"navigateToUrl(""https://www.google.com.do/?gws_rd=ssl"")",Chrome 109.0.0.0,,,2023-01-28 11:58:43,2023-01-28 11:58:45,2.199s,PASSED
+waitForPageLoad(0),Chrome 109.0.0.0,,,2023-01-28 11:58:45,2023-01-28 11:58:45,0.021s,PASSED
+res = 0,Chrome 109.0.0.0,,,2023-01-28 11:58:45,2023-01-28 11:58:45,0.000s,PASSED
+while (res != 8),Chrome 109.0.0.0,,,2023-01-28 11:58:45,2023-01-28 11:59:42,56.436s,PASSED
+if (res == 8),Chrome 109.0.0.0,,,2023-01-28 11:59:42,2023-01-28 11:59:42,0.329s,PASSED

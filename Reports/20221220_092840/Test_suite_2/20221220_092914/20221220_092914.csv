@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_2,Firefox 108.0,,,2022-12-20 09:30:37,2022-12-20 09:33:04,2m - 27.250s,PASSED
+,,,,,,,
+Test Cases/Reto_2/Reto_2,Firefox 108.0,,,2022-12-20 09:30:38,2022-12-20 09:31:43,1m - 5.259s,PASSED
+"openBrowser("""")",Firefox 108.0,,,2022-12-20 09:30:38,2022-12-20 09:30:45,6.350s,PASSED
+"navigateToUrl(""https://opencart.abstracta.us/"")",Firefox 108.0,,,2022-12-20 09:30:45,2022-12-20 09:31:02,17.824s,PASSED
+maximizeWindow(),Firefox 108.0,,,2022-12-20 09:31:02,2022-12-20 09:31:03,0.510s,PASSED
+"click(findTestObject(""Reto_2/Page_Your Store/img_Featured_img-responsive""))",Firefox 108.0,,,2022-12-20 09:31:03,2022-12-20 09:31:14,10.886s,PASSED
+"click(findTestObject(""Reto_2/Page_MacBook/img""))",Firefox 108.0,,,2022-12-20 09:31:14,2022-12-20 09:31:14,0.662s,PASSED
+"click(findTestObject(""Reto_2/Page_MacBook/button_2""))",Firefox 108.0,,,2022-12-20 09:31:14,2022-12-20 09:31:15,0.711s,PASSED
+"clearText(findTestObject(""Reto_2/Page_MacBook/input_Qty_quantity""))",Firefox 108.0,,,2022-12-20 09:31:15,2022-12-20 09:31:16,1.112s,PASSED
+"setText(findTestObject(""Reto_2/Page_MacBook/input_Qty_quantity""), ""2"")",Firefox 108.0,,,2022-12-20 09:31:16,2022-12-20 09:31:17,0.939s,PASSED
+"click(findTestObject(""Reto_2/Page_MacBook/button_Add to Cart""))",Firefox 108.0,,,2022-12-20 09:31:17,2022-12-20 09:31:18,0.522s,PASSED
+"click(findTestObject(""Reto_2/Page_MacBook/button_1 item(s) - 602.00""))",Firefox 108.0,,,2022-12-20 09:31:18,2022-12-20 09:31:19,0.848s,PASSED
+"click(findTestObject(""Reto_2/Page_MacBook/strong_View Cart""))",Firefox 108.0,,,2022-12-20 09:31:19,2022-12-20 09:31:20,1.837s,PASSED
+"click(findTestObject(""Reto_2/Page_Shopping Cart/a_Checkout""))",Firefox 108.0,,,2022-12-20 09:31:20,2022-12-20 09:31:42,21.514s,PASSED
+closeBrowser(),Firefox 108.0,,,2022-12-20 09:31:42,2022-12-20 09:31:43,1.006s,PASSED
+,,,,,,,
+Test Cases/Test_script/Test_script,Firefox 108.0,,,2022-12-20 09:31:43,2022-12-20 09:32:18,34.755s,PASSED
+"openBrowser("""")",Firefox 108.0,,,2022-12-20 09:31:43,2022-12-20 09:31:47,4.210s,PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Firefox 108.0,,,2022-12-20 09:31:47,2022-12-20 09:32:11,23.960s,PASSED
+maximizeWindow(),Firefox 108.0,,,2022-12-20 09:32:11,2022-12-20 09:32:12,0.494s,PASSED
+"setText(findTestObject(""Object Repository/Test_script/Page_ToolsQA/input_Full Name_userName""), ""Tester Profile"")",Firefox 108.0,,,2022-12-20 09:32:12,2022-12-20 09:32:13,1.242s,PASSED
+"setText(findTestObject(""Object Repository/Test_script/Page_ToolsQA/input_Email_userEmail""), ""test@gmail.com"")",Firefox 108.0,,,2022-12-20 09:32:13,2022-12-20 09:32:14,0.939s,PASSED
+"setText(findTestObject(""Object Repository/Test_script/Page_ToolsQA/textarea_Current Address_currentAddress""), ""Direccion 1"")",Firefox 108.0,,,2022-12-20 09:32:14,2022-12-20 09:32:15,0.862s,PASSED
+"setText(findTestObject(""Object Repository/Test_script/Page_ToolsQA/textarea_Permanent Address_permanentAddress""), ""Direccion 2"")",Firefox 108.0,,,2022-12-20 09:32:15,2022-12-20 09:32:16,0.576s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Test_script/Page_ToolsQA/button_Submit""), 0)",Firefox 108.0,,,2022-12-20 09:32:16,2022-12-20 09:32:16,0.555s,PASSED
+"click(findTestObject(""Object Repository/Test_script/Page_ToolsQA/button_Submit""))",Firefox 108.0,,,2022-12-20 09:32:16,2022-12-20 09:32:17,0.535s,PASSED
+closeBrowser(),Firefox 108.0,,,2022-12-20 09:32:17,2022-12-20 09:32:18,1.076s,PASSED
+,,,,,,,
+Test Cases/Test_screenshot/test_screenshot,Firefox 108.0,,,2022-12-20 09:32:18,2022-12-20 09:32:37,19.327s,PASSED
+"openBrowser("""")",Firefox 108.0,,,2022-12-20 09:32:18,2022-12-20 09:32:22,3.632s,PASSED
+"navigateToUrl(""https://testingqarvn.com.es/datos-personales/"")",Firefox 108.0,,,2022-12-20 09:32:22,2022-12-20 09:32:28,6.178s,PASSED
+maximizeWindow(),Firefox 108.0,,,2022-12-20 09:32:28,2022-12-20 09:32:29,0.533s,PASSED
+"click(findTestObject(""Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/label_Nombre""))",Firefox 108.0,,,2022-12-20 09:32:29,2022-12-20 09:32:30,0.703s,PASSED
+"scrollToElement(findTestObject(""test_screenshot/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21""), 0)",Firefox 108.0,,,2022-12-20 09:32:30,2022-12-20 09:32:30,0.395s,PASSED
+"setText(findTestObject(""test_screenshot/Page_Datos Personales  TestingQaRvn/input_Nombre_field_21""), ""Gabriel"")",Firefox 108.0,,,2022-12-20 09:32:30,2022-12-20 09:32:30,0.517s,PASSED
+"setText(findTestObject(""Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Apellidos_field_22""), ""Crooke"")",Firefox 108.0,,,2022-12-20 09:32:30,2022-12-20 09:32:31,0.520s,PASSED
+"setText(findTestObject(""Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Email_field_23""), ""gabrielcrooke@gmail.com"")",Firefox 108.0,,,2022-12-20 09:32:31,2022-12-20 09:32:31,0.535s,PASSED
+"setText(findTestObject(""Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/input_Phone_field_24""), ""8293639861"")",Firefox 108.0,,,2022-12-20 09:32:31,2022-12-20 09:32:32,0.729s,PASSED
+"setText(findTestObject(""Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/textarea_Direccin_field_28""), ""Calle principal #2"")",Firefox 108.0,,,2022-12-20 09:32:32,2022-12-20 09:32:33,0.540s,PASSED
+"takeScreenshot(""/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/testScreen1.png"")",Firefox 108.0,,,2022-12-20 09:32:33,2022-12-20 09:32:34,0.787s,PASSED
+"waitForElementClickable(findTestObject(""test_screenshot/Page_Datos Personales  TestingQaRvn/button_Submit""), 3)",Firefox 108.0,,,2022-12-20 09:32:34,2022-12-20 09:32:34,0.384s,PASSED
+"click(findTestObject(""Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/button_Submit""))",Firefox 108.0,,,2022-12-20 09:32:34,2022-12-20 09:32:34,0.510s,PASSED
+"click(findTestObject(""Object Repository/test_screenshot/Page_Datos Personales  TestingQaRvn/p_Gracias por tu encuesta""))",Firefox 108.0,,,2022-12-20 09:32:34,2022-12-20 09:32:36,1.202s,PASSED
+"takeScreenshot(""/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/imagenes/testScreen12.png"")",Firefox 108.0,,,2022-12-20 09:32:36,2022-12-20 09:32:36,0.624s,PASSED
+closeBrowser(),Firefox 108.0,,,2022-12-20 09:32:36,2022-12-20 09:32:37,0.763s,PASSED
+,,,,,,,
+Test Cases/variable_1/variable_1,Firefox 108.0,,,2022-12-20 09:32:37,2022-12-20 09:33:04,27.367s,PASSED
+"openBrowser("""")",Firefox 108.0,,,2022-12-20 09:32:37,2022-12-20 09:32:42,4.306s,PASSED
+"navigateToUrl(""https://demoqa.com/webtables"")",Firefox 108.0,,,2022-12-20 09:32:42,2022-12-20 09:32:54,12.284s,PASSED
+maximizeWindow(),Firefox 108.0,,,2022-12-20 09:32:54,2022-12-20 09:32:55,0.506s,PASSED
+"click(findTestObject(""Object Repository/variable_1/Page_ToolsQA/button_Add""))",Firefox 108.0,,,2022-12-20 09:32:55,2022-12-20 09:32:55,0.665s,PASSED
+"setText(findTestObject(""Object Repository/variable_1/Page_ToolsQA/input_First Name_firstName""), firstName)",Firefox 108.0,,,2022-12-20 09:32:55,2022-12-20 09:32:56,0.879s,PASSED
+"setText(findTestObject(""Object Repository/variable_1/Page_ToolsQA/input_Last Name_lastName""), lastName)",Firefox 108.0,,,2022-12-20 09:32:56,2022-12-20 09:32:57,0.685s,PASSED
+"setText(findTestObject(""Object Repository/variable_1/Page_ToolsQA/input_Email_userEmail""), textEmail)",Firefox 108.0,,,2022-12-20 09:32:57,2022-12-20 09:32:58,0.784s,PASSED
+"setText(findTestObject(""Object Repository/variable_1/Page_ToolsQA/input_Age_age""), textAge)",Firefox 108.0,,,2022-12-20 09:32:58,2022-12-20 09:32:58,0.737s,PASSED
+"setText(findTestObject(""Object Repository/variable_1/Page_ToolsQA/input_Salary_salary""), textSalary)",Firefox 108.0,,,2022-12-20 09:32:58,2022-12-20 09:32:59,0.764s,PASSED
+"setText(findTestObject(""Object Repository/variable_1/Page_ToolsQA/input_Department_department""), textDepartment)",Firefox 108.0,,,2022-12-20 09:32:59,2022-12-20 09:33:00,0.658s,PASSED
+"click(findTestObject(""Object Repository/variable_1/Page_ToolsQA/button_Submit""))",Firefox 108.0,,,2022-12-20 09:33:00,2022-12-20 09:33:00,0.737s,PASSED
+delay(time),Firefox 108.0,,,2022-12-20 09:33:00,2022-12-20 09:33:03,3.051s,PASSED
+closeBrowser(),Firefox 108.0,,,2022-12-20 09:33:03,2022-12-20 09:33:04,0.932s,PASSED

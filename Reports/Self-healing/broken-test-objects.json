@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Reto_1/Page_ToolsQA/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.rct-icon.rct-icon-uncheck \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Reto_1/Page_ToolsQA/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/spy_web/Page_ToolsQA/input_Full Name_userName",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027userName\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/spy_web/Page_ToolsQA/input_Full Name_userName_attributes.png"
+    }
+  ]
+}

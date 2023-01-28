@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_suite_3" time="51.078" tests="4" failures="0" errors="0">
+   <testsuite name="Test_suite_3" tests="4" failures="0" errors="0" time="51.078" skipped="0" timestamp="2022-12-20 09:33:13" hostname="gabrielcrooke - 192.168.4.65" id="Test Suites/Test_suite_3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_3/20221220_092935"/>
+         <property name="logFiles" value="/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_3/20221220_092935/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gabrielcrooke - 192.168.4.65"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.3.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.4.65"/>
+         <property name="sessionId" value="889765ffcc5ed3c3adb52420ed7a2df5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/google/google" time="18.923" classname="Test Cases/google/google" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:33:14 - [TEST_CASE][PASSED] - Test Cases/google/google: Test Cases/google/google
+
+2022-12-20 09:33:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:33:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:33:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:33:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:33:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+2022-12-20 09:33:20 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2022-12-20 09:33:20 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2022-12-20 09:33:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 09:33:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-12-20 09:33:20 - [TEST_STEP][PASSED] - setText(findTestObject("google/searchbox"), "ferr"): Text 'ferr' is set on object 'Object Repository/google/searchbox'
+
+2022-12-20 09:33:21 - [MESSAGE][PASSED] - Text 'ferr' is set on object 'Object Repository/google/searchbox'
+
+2022-12-20 09:33:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("google/ferrari"), 5): Object 'Object Repository/google/ferrari' is visible
+
+2022-12-20 09:33:22 - [MESSAGE][PASSED] - Object 'Object Repository/google/ferrari' is visible
+
+2022-12-20 09:33:22 - [TEST_STEP][PASSED] - click(findTestObject("google/ferrari")): Object: 'Object Repository/google/ferrari' is clicked on
+
+2022-12-20 09:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/google/ferrari' is clicked on
+
+2022-12-20 09:33:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-12-20 09:33:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-20 09:33:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:33:33 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mouse_over/Mouse_over" time="11.857" classname="Test Cases/Mouse_over/Mouse_over" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:33:33 - [TEST_CASE][PASSED] - Test Cases/Mouse_over/Mouse_over: Test Cases/Mouse_over/Mouse_over
+
+2022-12-20 09:33:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:33:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-12-20 09:33:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:33:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:33:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:33:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.mercadolibre.com.mx/"): Navigate to 'https://www.mercadolibre.com.mx/' successfully
+
+2022-12-20 09:33:39 - [MESSAGE][PASSED] - Navigate to 'https://www.mercadolibre.com.mx/' successfully
+
+2022-12-20 09:33:39 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-12-20 09:33:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-12-20 09:33:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:33:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:33:40 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras")): Object: 'Object Repository/mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras' is hovered
+
+2022-12-20 09:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras' is hovered
+
+2022-12-20 09:33:40 - [TEST_STEP][PASSED] - rightClick(findTestObject("mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras")): Object: 'Object Repository/mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras' is right clicked on
+
+2022-12-20 09:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras' is right clicked on
+
+2022-12-20 09:33:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-12-20 09:33:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-12-20 09:33:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:33:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/qaInterview" time="7.932" classname="Test Cases/qaInterview" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:33:45 - [TEST_CASE][PASSED] - Test Cases/qaInterview: Test Cases/qaInterview
+
+2022-12-20 09:33:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 09:33:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 09:33:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 09:33:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 09:33:47 - [TEST_STEP][PASSED] - navigateToUrl("https://qainterview.pythonanywhere.com/"): Navigate to 'https://qainterview.pythonanywhere.com/' successfully
+
+2022-12-20 09:33:49 - [MESSAGE][PASSED] - Navigate to 'https://qainterview.pythonanywhere.com/' successfully
+
+2022-12-20 09:33:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-20 09:33:49 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-20 09:33:49 - [TEST_STEP][PASSED] - setText(findTestObject("qaInterview/Page_Factoriall/input_The greatest factorial calculator_number"), "5"): Text '5' is set on object 'Object Repository/qaInterview/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2022-12-20 09:33:50 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/qaInterview/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2022-12-20 09:33:50 - [TEST_STEP][PASSED] - click(findTestObject("qaInterview/Page_Factoriall/button_Calculate")): Object: 'Object Repository/qaInterview/Page_Factoriall/button_Calculate' is clicked on
+
+2022-12-20 09:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/qaInterview/Page_Factoriall/button_Calculate' is clicked on
+
+2022-12-20 09:33:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-12-20 09:33:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-12-20 09:33:52 - [TEST_STEP][PASSED] - resultado = getText(findTestObject("qaInterview/Page_Factoriall/factorialResult")): Text of object 'Object Repository/qaInterview/Page_Factoriall/factorialResult' is: 'The factorial of 5 is: 120'
+
+2022-12-20 09:33:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/qaInterview/Page_Factoriall/factorialResult' is: 'The factorial of 5 is: 120'
+
+2022-12-20 09:33:52 - [TEST_STEP][PASSED] - print(resultado): null
+
+2022-12-20 09:33:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 09:33:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Find user by ID" time="11.973" classname="Test Cases/Find user by ID" status="PASSED">
+         <system-out><![CDATA[2022-12-20 09:33:53 - [TEST_CASE][PASSED] - Test Cases/Find user by ID: Test Cases/Find user by ID
+
+2022-12-20 09:33:54 - [TEST_STEP][PASSED] - id = sample.Common.createNewUser(age, username, password, gender, 200): sample.Common.createNewUser is PASSED
+
+2022-12-20 09:34:03 - [MESSAGE][INFO] - HAR: /Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_3/20221220_092935/requests/main/0.har
+
+2022-12-20 09:34:03 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-12-20 09:34:03 - [MESSAGE][PASSED] - sample.Common.createNewUser is PASSED
+
+2022-12-20 09:34:03 - [TEST_STEP][PASSED] - sample.Common.findUserById(id, age, username, password, gender, 200): sample.Common.findUserById is PASSED
+
+2022-12-20 09:34:04 - [MESSAGE][INFO] - HAR: /Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Reports/20221220_092840/Test_suite_3/20221220_092935/requests/main/1.har
+
+2022-12-20 09:34:04 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-12-20 09:34:04 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-12-20 09:34:04 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-12-20 09:34:04 - [TEST_STEP][PASSED] - assert response.getStatusCode() == 200: null
+
+2022-12-20 09:34:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "age", 25): Verify element property value successfully
+
+2022-12-20 09:34:04 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "username", "mimi"): Verify element property value successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "123456789"): Verify element property value successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "gender", "MALE"): Verify element property value successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-12-20 09:34:05 - [MESSAGE][PASSED] - sample.Common.findUserById is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-20 09:33:13 - [TEST_SUITE][PASSED] - Test_suite_3: Test Cases/Find user by ID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

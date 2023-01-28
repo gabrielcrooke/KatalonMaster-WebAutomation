@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_suite_3,Chrome 108.0.0.0,,,2022-12-20 09:33:13,2022-12-20 09:34:05,51.078s,PASSED
+,,,,,,,
+Test Cases/google/google,Chrome 108.0.0.0,,,2022-12-20 09:33:14,2022-12-20 09:33:33,18.923s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-20 09:33:14,2022-12-20 09:33:17,2.901s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 108.0.0.0,,,2022-12-20 09:33:17,2022-12-20 09:33:20,2.585s,PASSED
+waitForPageLoad(0),Chrome 108.0.0.0,,,2022-12-20 09:33:20,2022-12-20 09:33:20,0.183s,PASSED
+"setText(findTestObject(""google/searchbox""), ""ferr"")",Chrome 108.0.0.0,,,2022-12-20 09:33:20,2022-12-20 09:33:21,1.270s,PASSED
+"waitForElementVisible(findTestObject(""google/ferrari""), 5)",Chrome 108.0.0.0,,,2022-12-20 09:33:21,2022-12-20 09:33:22,0.875s,PASSED
+"click(findTestObject(""google/ferrari""))",Chrome 108.0.0.0,,,2022-12-20 09:33:22,2022-12-20 09:33:29,7.321s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-20 09:33:29,2022-12-20 09:33:32,3.026s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-20 09:33:32,2022-12-20 09:33:33,0.455s,PASSED
+,,,,,,,
+Test Cases/Mouse_over/Mouse_over,Chrome 108.0.0.0,,,2022-12-20 09:33:33,2022-12-20 09:33:45,11.857s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-20 09:33:34,2022-12-20 09:33:36,2.300s,PASSED
+"navigateToUrl(""https://www.mercadolibre.com.mx/"")",Chrome 108.0.0.0,,,2022-12-20 09:33:36,2022-12-20 09:33:39,2.973s,PASSED
+waitForPageLoad(30),Chrome 108.0.0.0,,,2022-12-20 09:33:39,2022-12-20 09:33:39,0.160s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-20 09:33:39,2022-12-20 09:33:40,0.537s,PASSED
+"mouseOver(findTestObject(""Object Repository/mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras""))",Chrome 108.0.0.0,,,2022-12-20 09:33:40,2022-12-20 09:33:40,0.919s,PASSED
+"rightClick(findTestObject(""mouse_over/Page_Mercado Libre Mxico - Envos Gratis en el da/a_Categoras""))",Chrome 108.0.0.0,,,2022-12-20 09:33:40,2022-12-20 09:33:42,2.025s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-20 09:33:42,2022-12-20 09:33:44,2.014s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-20 09:33:44,2022-12-20 09:33:45,0.172s,PASSED
+,,,,,,,
+Test Cases/qaInterview,Chrome 108.0.0.0,,,2022-12-20 09:33:45,2022-12-20 09:33:53,7.932s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-20 09:33:45,2022-12-20 09:33:47,2.108s,PASSED
+"navigateToUrl(""https://qainterview.pythonanywhere.com/"")",Chrome 108.0.0.0,,,2022-12-20 09:33:47,2022-12-20 09:33:49,1.739s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-20 09:33:49,2022-12-20 09:33:49,0.468s,PASSED
+"setText(findTestObject(""qaInterview/Page_Factoriall/input_The greatest factorial calculator_number""), ""5"")",Chrome 108.0.0.0,,,2022-12-20 09:33:49,2022-12-20 09:33:50,1.102s,PASSED
+"click(findTestObject(""qaInterview/Page_Factoriall/button_Calculate""))",Chrome 108.0.0.0,,,2022-12-20 09:33:50,2022-12-20 09:33:51,0.452s,PASSED
+delay(1),Chrome 108.0.0.0,,,2022-12-20 09:33:51,2022-12-20 09:33:52,1.007s,PASSED
+"resultado = getText(findTestObject(""qaInterview/Page_Factoriall/factorialResult""))",Chrome 108.0.0.0,,,2022-12-20 09:33:52,2022-12-20 09:33:52,0.544s,PASSED
+print(resultado),Chrome 108.0.0.0,,,2022-12-20 09:33:52,2022-12-20 09:33:52,0.003s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-20 09:33:52,2022-12-20 09:33:53,0.157s,PASSED
+,,,,,,,
+Test Cases/Find user by ID,Chrome 108.0.0.0,,,2022-12-20 09:33:53,2022-12-20 09:34:05,11.973s,PASSED
+"id = sample.Common.createNewUser(age, username, password, gender, 200)",Chrome 108.0.0.0,,,2022-12-20 09:33:54,2022-12-20 09:34:03,9.933s,PASSED
+"sample.Common.findUserById(id, age, username, password, gender, 200)",Chrome 108.0.0.0,,,2022-12-20 09:34:03,2022-12-20 09:34:05,1.120s,PASSED

@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data_excell,Chrome 108.0.0.0,,,2022-12-26 10:59:43,2022-12-26 11:00:55,1m - 12.370s,PASSED
+,,,,,,,
+Test Cases/Data_excell/Data_excell,Chrome 108.0.0.0,,,2022-12-26 10:59:44,2022-12-26 11:00:04,20.273s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-26 10:59:44,2022-12-26 10:59:48,3.764s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 108.0.0.0,,,2022-12-26 10:59:48,2022-12-26 10:59:53,4.715s,PASSED
+waitForPageLoad(30),Chrome 108.0.0.0,,,2022-12-26 10:59:53,2022-12-26 10:59:54,1.046s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-26 10:59:54,2022-12-26 10:59:58,3.916s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 108.0.0.0,,,2022-12-26 10:59:58,2022-12-26 10:59:59,1.455s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 108.0.0.0,,,2022-12-26 10:59:59,2022-12-26 11:00:00,1.151s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 108.0.0.0,,,2022-12-26 11:00:00,2022-12-26 11:00:02,1.559s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 11:00:02,2022-12-26 11:00:04,2.031s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-26 11:00:04,2022-12-26 11:00:04,0.286s,PASSED
+,,,,,,,
+Test Cases/Data_excell/Data_excell,Chrome 108.0.0.0,,,2022-12-26 11:00:04,2022-12-26 11:00:17,12.293s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-26 11:00:04,2022-12-26 11:00:06,2.000s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 108.0.0.0,,,2022-12-26 11:00:06,2022-12-26 11:00:09,2.632s,PASSED
+waitForPageLoad(30),Chrome 108.0.0.0,,,2022-12-26 11:00:09,2022-12-26 11:00:09,0.039s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-26 11:00:09,2022-12-26 11:00:09,0.563s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 108.0.0.0,,,2022-12-26 11:00:09,2022-12-26 11:00:12,2.710s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 108.0.0.0,,,2022-12-26 11:00:12,2022-12-26 11:00:13,1.114s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 108.0.0.0,,,2022-12-26 11:00:13,2022-12-26 11:00:14,0.982s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 11:00:14,2022-12-26 11:00:16,2.009s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-26 11:00:16,2022-12-26 11:00:17,0.221s,PASSED
+,,,,,,,
+Test Cases/Data_excell/Data_excell,Chrome 108.0.0.0,,,2022-12-26 11:00:17,2022-12-26 11:00:29,12.437s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-26 11:00:17,2022-12-26 11:00:18,1.737s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 108.0.0.0,,,2022-12-26 11:00:18,2022-12-26 11:00:21,3.059s,PASSED
+waitForPageLoad(30),Chrome 108.0.0.0,,,2022-12-26 11:00:21,2022-12-26 11:00:21,0.029s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-26 11:00:21,2022-12-26 11:00:22,0.389s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 108.0.0.0,,,2022-12-26 11:00:22,2022-12-26 11:00:25,2.891s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 108.0.0.0,,,2022-12-26 11:00:25,2022-12-26 11:00:26,0.970s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 108.0.0.0,,,2022-12-26 11:00:26,2022-12-26 11:00:27,1.119s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 11:00:27,2022-12-26 11:00:29,2.009s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-26 11:00:29,2022-12-26 11:00:29,0.210s,PASSED
+,,,,,,,
+Test Cases/Data_excell/Data_excell,Chrome 108.0.0.0,,,2022-12-26 11:00:29,2022-12-26 11:00:41,12.386s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-26 11:00:29,2022-12-26 11:00:31,1.698s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 108.0.0.0,,,2022-12-26 11:00:31,2022-12-26 11:00:34,3.183s,PASSED
+waitForPageLoad(30),Chrome 108.0.0.0,,,2022-12-26 11:00:34,2022-12-26 11:00:34,0.016s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-26 11:00:34,2022-12-26 11:00:34,0.439s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 108.0.0.0,,,2022-12-26 11:00:34,2022-12-26 11:00:37,2.822s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 108.0.0.0,,,2022-12-26 11:00:37,2022-12-26 11:00:38,0.920s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 108.0.0.0,,,2022-12-26 11:00:38,2022-12-26 11:00:39,1.060s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 11:00:39,2022-12-26 11:00:41,2.005s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-26 11:00:41,2022-12-26 11:00:41,0.216s,PASSED
+,,,,,,,
+Test Cases/Data_excell/Data_excell,Chrome 108.0.0.0,,,2022-12-26 11:00:42,2022-12-26 11:00:55,13.556s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-26 11:00:42,2022-12-26 11:00:43,1.718s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 108.0.0.0,,,2022-12-26 11:00:43,2022-12-26 11:00:49,5.653s,PASSED
+waitForPageLoad(30),Chrome 108.0.0.0,,,2022-12-26 11:00:49,2022-12-26 11:00:49,0.021s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-26 11:00:49,2022-12-26 11:00:49,0.382s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 108.0.0.0,,,2022-12-26 11:00:49,2022-12-26 11:00:51,1.504s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 108.0.0.0,,,2022-12-26 11:00:51,2022-12-26 11:00:52,0.907s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 108.0.0.0,,,2022-12-26 11:00:52,2022-12-26 11:00:53,1.069s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 11:00:53,2022-12-26 11:00:55,2.006s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-26 11:00:55,2022-12-26 11:00:55,0.284s,PASSED

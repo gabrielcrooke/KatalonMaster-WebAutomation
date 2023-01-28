@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data_csv,Chrome 108.0.0.0,,,2022-12-26 14:31:29,2022-12-26 14:33:27,1m - 58.183s,PASSED
+,,,,,,,
+Test Cases/Data_excell/Data_excell,Chrome 108.0.0.0,,,2022-12-26 14:31:30,2022-12-26 14:32:04,33.904s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-26 14:31:30,2022-12-26 14:31:35,4.479s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 108.0.0.0,,,2022-12-26 14:31:35,2022-12-26 14:31:56,20.592s,PASSED
+waitForPageLoad(30),Chrome 108.0.0.0,,,2022-12-26 14:31:56,2022-12-26 14:31:56,0.323s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-26 14:31:56,2022-12-26 14:31:58,2.116s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 108.0.0.0,,,2022-12-26 14:31:58,2022-12-26 14:32:00,1.631s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 108.0.0.0,,,2022-12-26 14:32:00,2022-12-26 14:32:01,0.932s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 108.0.0.0,,,2022-12-26 14:32:01,2022-12-26 14:32:02,1.103s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 14:32:02,2022-12-26 14:32:04,2.025s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-26 14:32:04,2022-12-26 14:32:04,0.238s,PASSED
+,,,,,,,
+Test Cases/Data_excell/Data_excell,Chrome 108.0.0.0,,,2022-12-26 14:32:04,2022-12-26 14:32:28,23.671s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-26 14:32:04,2022-12-26 14:32:06,1.683s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 108.0.0.0,,,2022-12-26 14:32:06,2022-12-26 14:32:20,14.532s,PASSED
+waitForPageLoad(30),Chrome 108.0.0.0,,,2022-12-26 14:32:20,2022-12-26 14:32:20,0.037s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-26 14:32:20,2022-12-26 14:32:21,0.402s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 108.0.0.0,,,2022-12-26 14:32:21,2022-12-26 14:32:24,2.912s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 108.0.0.0,,,2022-12-26 14:32:24,2022-12-26 14:32:25,1.013s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 108.0.0.0,,,2022-12-26 14:32:25,2022-12-26 14:32:25,0.854s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 14:32:25,2022-12-26 14:32:27,2.008s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-26 14:32:27,2022-12-26 14:32:28,0.212s,PASSED
+,,,,,,,
+Test Cases/Data_excell/Data_excell,Chrome 108.0.0.0,,,2022-12-26 14:32:28,2022-12-26 14:32:47,18.913s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-26 14:32:28,2022-12-26 14:32:30,1.985s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 108.0.0.0,,,2022-12-26 14:32:30,2022-12-26 14:32:39,9.732s,PASSED
+waitForPageLoad(30),Chrome 108.0.0.0,,,2022-12-26 14:32:39,2022-12-26 14:32:39,0.015s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-26 14:32:39,2022-12-26 14:32:40,0.372s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 108.0.0.0,,,2022-12-26 14:32:40,2022-12-26 14:32:42,2.612s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 108.0.0.0,,,2022-12-26 14:32:42,2022-12-26 14:32:44,1.102s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 108.0.0.0,,,2022-12-26 14:32:44,2022-12-26 14:32:44,0.851s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 14:32:44,2022-12-26 14:32:46,2.007s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-26 14:32:46,2022-12-26 14:32:47,0.217s,PASSED
+,,,,,,,
+Test Cases/Data_excell/Data_excell,Chrome 108.0.0.0,,,2022-12-26 14:32:47,2022-12-26 14:33:03,16.072s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-26 14:32:47,2022-12-26 14:32:48,1.574s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 108.0.0.0,,,2022-12-26 14:32:48,2022-12-26 14:32:56,7.244s,PASSED
+waitForPageLoad(30),Chrome 108.0.0.0,,,2022-12-26 14:32:56,2022-12-26 14:32:56,0.011s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-26 14:32:56,2022-12-26 14:32:56,0.361s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 108.0.0.0,,,2022-12-26 14:32:56,2022-12-26 14:32:59,2.745s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 108.0.0.0,,,2022-12-26 14:32:59,2022-12-26 14:33:00,0.912s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 108.0.0.0,,,2022-12-26 14:33:00,2022-12-26 14:33:01,0.977s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 14:33:01,2022-12-26 14:33:03,2.006s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-26 14:33:03,2022-12-26 14:33:03,0.211s,PASSED
+,,,,,,,
+Test Cases/Data_excell/Data_excell,Chrome 108.0.0.0,,,2022-12-26 14:33:03,2022-12-26 14:33:27,24.717s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-26 14:33:03,2022-12-26 14:33:04,1.627s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 108.0.0.0,,,2022-12-26 14:33:04,2022-12-26 14:33:19,15.049s,PASSED
+waitForPageLoad(30),Chrome 108.0.0.0,,,2022-12-26 14:33:19,2022-12-26 14:33:19,0.014s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-26 14:33:19,2022-12-26 14:33:20,0.361s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_firstName""), nombre)",Chrome 108.0.0.0,,,2022-12-26 14:33:20,2022-12-26 14:33:23,3.358s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Name_lastName""), apellido)",Chrome 108.0.0.0,,,2022-12-26 14:33:23,2022-12-26 14:33:24,1.002s,PASSED
+"setText(findTestObject(""Object Repository/Data_externaExc/Page_ToolsQA/input_Email_userEmail""), email)",Chrome 108.0.0.0,,,2022-12-26 14:33:24,2022-12-26 14:33:25,0.989s,PASSED
+delay(2),Chrome 108.0.0.0,,,2022-12-26 14:33:25,2022-12-26 14:33:27,2.004s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-26 14:33:27,2022-12-26 14:33:27,0.289s,PASSED

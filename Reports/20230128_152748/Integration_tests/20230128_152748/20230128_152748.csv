@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integration_tests,Chrome 109.0.5414.119,,,2023-01-28 15:28:05,2023-01-28 15:29:58,1m - 52.365s,FAILED
+,,,,,,,
+Test Cases/bucles/Reto_for,Chrome 109.0.5414.119,,,2023-01-28 15:28:06,2023-01-28 15:28:32,25.831s,PASSED
+"openBrowser("""")",Chrome 109.0.5414.119,,,2023-01-28 15:28:06,2023-01-28 15:28:09,3.208s,PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 109.0.5414.119,,,2023-01-28 15:28:09,2023-01-28 15:28:14,4.963s,PASSED
+waitForPageLoad(10),Chrome 109.0.5414.119,,,2023-01-28 15:28:14,2023-01-28 15:28:15,0.181s,PASSED
+maximizeWindow(),Chrome 109.0.5414.119,,,2023-01-28 15:28:15,2023-01-28 15:28:15,0.184s,PASSED
+"scrollToPosition(0, 250)",Chrome 109.0.5414.119,,,2023-01-28 15:28:15,2023-01-28 15:28:15,0.057s,PASSED
+"for ([x = 1, x <= 5, (x++)])",Chrome 109.0.5414.119,,,2023-01-28 15:28:15,2023-01-28 15:28:32,16.722s,PASSED
+closeBrowser(),Chrome 109.0.5414.119,,,2023-01-28 15:28:32,2023-01-28 15:28:32,0.107s,PASSED
+,,,,,,,
+Test Cases/bucles/Reto_while_solution,Chrome 109.0.5414.119,,,2023-01-28 15:28:32,2023-01-28 15:28:44,12.587s,PASSED
+"openBrowser("""")",Chrome 109.0.5414.119,,,2023-01-28 15:28:32,2023-01-28 15:28:33,0.604s,PASSED
+maximizeWindow(),Chrome 109.0.5414.119,,,2023-01-28 15:28:33,2023-01-28 15:28:33,0.113s,PASSED
+"navigateToUrl(""https://www.google.com.do/?gws_rd=ssl"")",Chrome 109.0.5414.119,,,2023-01-28 15:28:33,2023-01-28 15:28:34,1.241s,PASSED
+waitForPageLoad(0),Chrome 109.0.5414.119,,,2023-01-28 15:28:34,2023-01-28 15:28:34,0.014s,PASSED
+res = 0,Chrome 109.0.5414.119,,,2023-01-28 15:28:34,2023-01-28 15:28:34,0.000s,PASSED
+while (res != 8),Chrome 109.0.5414.119,,,2023-01-28 15:28:34,2023-01-28 15:28:44,10.210s,PASSED
+if (res == 8),Chrome 109.0.5414.119,,,2023-01-28 15:28:44,2023-01-28 15:28:44,0.126s,PASSED
+,,,,,,,
+Test Cases/Reto_select/Reto_select,Chrome 109.0.5414.119,,,2023-01-28 15:28:44,2023-01-28 15:29:04,19.582s,PASSED
+"openBrowser("""")",Chrome 109.0.5414.119,,,2023-01-28 15:28:45,2023-01-28 15:28:45,0.591s,PASSED
+"navigateToUrl(""https://testsheepnz.github.io/BasicCalculator.html"")",Chrome 109.0.5414.119,,,2023-01-28 15:28:45,2023-01-28 15:28:46,1.017s,PASSED
+maximizeWindow(),Chrome 109.0.5414.119,,,2023-01-28 15:28:46,2023-01-28 15:28:46,0.111s,PASSED
+"scrollToElement(findTestObject(""Reto_select/Page_Basic Calculator/select_Prototype""), 0)",Chrome 109.0.5414.119,,,2023-01-28 15:28:46,2023-01-28 15:28:46,0.088s,PASSED
+"selectOptionByValue(findTestObject(""Reto_select/Page_Basic Calculator/select_Prototype""), ""6"", false)",Chrome 109.0.5414.119,,,2023-01-28 15:28:46,2023-01-28 15:28:47,0.172s,PASSED
+delay(Tiempo),Chrome 109.0.5414.119,,,2023-01-28 15:28:47,2023-01-28 15:28:48,1.007s,PASSED
+"setText(findTestObject(""Reto_select/Page_Basic Calculator/input_First number_number1""), ""10"")",Chrome 109.0.5414.119,,,2023-01-28 15:28:48,2023-01-28 15:28:48,0.328s,PASSED
+delay(Tiempo),Chrome 109.0.5414.119,,,2023-01-28 15:28:48,2023-01-28 15:28:49,1.005s,PASSED
+"setText(findTestObject(""Reto_select/Page_Basic Calculator/input_Second number_number2""), ""2"")",Chrome 109.0.5414.119,,,2023-01-28 15:28:49,2023-01-28 15:28:49,0.213s,PASSED
+delay(Tiempo),Chrome 109.0.5414.119,,,2023-01-28 15:28:49,2023-01-28 15:28:50,1.008s,PASSED
+"selectOptionByLabel(findTestObject(""Reto_select/Page_Basic Calculator/select_Add""), ""Divide"", false)",Chrome 109.0.5414.119,,,2023-01-28 15:28:50,2023-01-28 15:28:50,0.178s,PASSED
+delay(Tiempo),Chrome 109.0.5414.119,,,2023-01-28 15:28:50,2023-01-28 15:28:51,1.006s,PASSED
+"click(findTestObject(""Reto_select/Page_Basic Calculator/input_Operation_calculateButton""))",Chrome 109.0.5414.119,,,2023-01-28 15:28:51,2023-01-28 15:28:52,0.112s,PASSED
+delay(10),Chrome 109.0.5414.119,,,2023-01-28 15:28:52,2023-01-28 15:29:02,10.003s,PASSED
+"check(findTestObject(""Reto_select/Page_Basic Calculator/input_Integers only_intSelection""), STOP_ON_FAILURE)",Chrome 109.0.5414.119,,,2023-01-28 15:29:02,2023-01-28 15:29:02,0.117s,PASSED
+delay(Tiempo),Chrome 109.0.5414.119,,,2023-01-28 15:29:02,2023-01-28 15:29:03,1.005s,PASSED
+"click(findTestObject(""Reto_select/Page_Basic Calculator/input_Integers only_clearButton""))",Chrome 109.0.5414.119,,,2023-01-28 15:29:03,2023-01-28 15:29:03,0.108s,PASSED
+delay(Tiempo),Chrome 109.0.5414.119,,,2023-01-28 15:29:03,2023-01-28 15:29:04,1.006s,PASSED
+closeBrowser(),Chrome 109.0.5414.119,,,2023-01-28 15:29:04,2023-01-28 15:29:04,0.086s,PASSED
+,,,,,,,
+Test Cases/Reto_1/Reto_1,Chrome 109.0.5414.119,,,2023-01-28 15:29:04,2023-01-28 15:29:43,39.343s,FAILED
+"openBrowser("""")",Chrome 109.0.5414.119,,,2023-01-28 15:29:04,2023-01-28 15:29:05,0.594s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 109.0.5414.119,,,2023-01-28 15:29:05,2023-01-28 15:29:10,5.479s,PASSED
+maximizeWindow(),Chrome 109.0.5414.119,,,2023-01-28 15:29:10,2023-01-28 15:29:10,0.111s,PASSED
+"click(findTestObject(""Object Repository/Reto_1/Page_ToolsQA/div_Elements_card-up""))",Chrome 109.0.5414.119,,,2023-01-28 15:29:10,2023-01-28 15:29:43,32.922s,FAILED
+,,,,,,,
+Test Cases/Select/Select,Chrome 109.0.5414.119,,,2023-01-28 15:29:43,2023-01-28 15:29:53,10.209s,PASSED
+"openBrowser("""")",Chrome 109.0.5414.119,,,2023-01-28 15:29:43,2023-01-28 15:29:44,0.714s,PASSED
+"navigateToUrl(""https://testingqarvn.com.es/combobox/"")",Chrome 109.0.5414.119,,,2023-01-28 15:29:44,2023-01-28 15:29:47,2.514s,PASSED
+maximizeWindow(),Chrome 109.0.5414.119,,,2023-01-28 15:29:47,2023-01-28 15:29:47,0.110s,PASSED
+"selectOptionByLabel(findTestObject(""Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac""), ""Linux"", false)",Chrome 109.0.5414.119,,,2023-01-28 15:29:47,2023-01-28 15:29:47,0.147s,PASSED
+delay(Tiempo),Chrome 109.0.5414.119,,,2023-01-28 15:29:47,2023-01-28 15:29:49,2.007s,PASSED
+"selectOptionByIndex(findTestObject(""Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac""), 2)",Chrome 109.0.5414.119,,,2023-01-28 15:29:49,2023-01-28 15:29:49,0.167s,PASSED
+delay(Tiempo),Chrome 109.0.5414.119,,,2023-01-28 15:29:49,2023-01-28 15:29:51,2.008s,PASSED
+"selectOptionByValue(findTestObject(""Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac""), ""Windows"", false)",Chrome 109.0.5414.119,,,2023-01-28 15:29:51,2023-01-28 15:29:51,0.202s,PASSED
+delay(Tiempo),Chrome 109.0.5414.119,,,2023-01-28 15:29:51,2023-01-28 15:29:53,2.005s,PASSED
+closeBrowser(),Chrome 109.0.5414.119,,,2023-01-28 15:29:53,2023-01-28 15:29:53,0.081s,PASSED
+,,,,,,,
+Test Cases/qaInterview,Chrome 109.0.5414.119,,,2023-01-28 15:29:53,2023-01-28 15:29:58,4.313s,PASSED
+"openBrowser("""")",Chrome 109.0.5414.119,,,2023-01-28 15:29:54,2023-01-28 15:29:54,0.690s,PASSED
+"navigateToUrl(""https://qainterview.pythonanywhere.com/"")",Chrome 109.0.5414.119,,,2023-01-28 15:29:54,2023-01-28 15:29:56,1.456s,PASSED
+maximizeWindow(),Chrome 109.0.5414.119,,,2023-01-28 15:29:56,2023-01-28 15:29:56,0.111s,PASSED
+"setText(findTestObject(""qaInterview/Page_Factoriall/input_The greatest factorial calculator_number""), ""5"")",Chrome 109.0.5414.119,,,2023-01-28 15:29:56,2023-01-28 15:29:56,0.390s,PASSED
+"click(findTestObject(""qaInterview/Page_Factoriall/button_Calculate""))",Chrome 109.0.5414.119,,,2023-01-28 15:29:56,2023-01-28 15:29:57,0.181s,PASSED
+delay(1),Chrome 109.0.5414.119,,,2023-01-28 15:29:57,2023-01-28 15:29:58,1.006s,PASSED
+"resultado = getText(findTestObject(""qaInterview/Page_Factoriall/factorialResult""))",Chrome 109.0.5414.119,,,2023-01-28 15:29:58,2023-01-28 15:29:58,0.075s,PASSED
+print(resultado),Chrome 109.0.5414.119,,,2023-01-28 15:29:58,2023-01-28 15:29:58,0.001s,PASSED
+closeBrowser(),Chrome 109.0.5414.119,,,2023-01-28 15:29:58,2023-01-28 15:29:58,0.087s,PASSED
