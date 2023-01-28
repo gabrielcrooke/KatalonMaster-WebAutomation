@@ -21,34 +21,35 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/text-box')
 
-WebUI.waitForPageLoad(0)
+WebUI.waitForPageLoad(10)
 
 WebUI.maximizeWindow()
 
 WebUI.scrollToPosition(0, 250)
 
-for (x=1; x<=5; x++) {
-	
-	//Para utilizar numeros aleatorios
-	//int num= (Math.random() * (100) as int)
-	
-	//Arreglo para hacer el recorrido con nombre reales utilizando el random (en los campos nombre y email)
-	def z = ["Carlos", "Erika", "Paco", "Rodrigo", "Josefina"]
-	Random rn= new Random()
-	tx_nombre= z[rn.nextInt(z.size)] 
-	
+for (x = 1; x <= 5; x++) {
+    //Para utilizar numeros aleatorios
+    //int num= (Math.random() * (100) as int)
+    //Arreglo para hacer el recorrido con nombre reales utilizando el random (en los campos nombre y email)
+    def z = ['Carlos', 'Erika', 'Paco', 'Rodrigo', 'Josefina']
 
-	WebUI.setText(findTestObject('Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'), tx_nombre)
-	
-	WebUI.setText(findTestObject('Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'), tx_nombre + '@gmail.com')
-	
-	WebUI.setText(findTestObject('Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'), 'Direccion' + x)
-	
-	WebUI.setText(findTestObject('Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'), 'Direccion' + x)
-	
-	WebUI.click(findTestObject('Object Repository/Reto_for/Page_ToolsQA/button_Submit'))
-	
-	WebUI.delay(2)
+    Random rn = new Random()
+
+    tx_nombre = (z[rn.nextInt(z.size)])
+
+    WebUI.setText(findTestObject('Object Repository/Reto_for/Page_ToolsQA/input_Full Name_userName'), tx_nombre)
+
+    WebUI.setText(findTestObject('Object Repository/Reto_for/Page_ToolsQA/input_Email_userEmail'), tx_nombre + '@gmail.com')
+
+    WebUI.setText(findTestObject('Object Repository/Reto_for/Page_ToolsQA/textarea_Current Address_currentAddress'), 'Direccion' + 
+        x)
+
+    WebUI.setText(findTestObject('Object Repository/Reto_for/Page_ToolsQA/textarea_Permanent Address_permanentAddress'), 
+        'Direccion' + x)
+
+    WebUI.click(findTestObject('Object Repository/Reto_for/Page_ToolsQA/button_Submit'))
+
+    WebUI.delay(2)
 }
 
 WebUI.closeBrowser()
