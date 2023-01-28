@@ -6,6 +6,7 @@
    <UUID>4944de0d-f865-41c5-8f26-b7e143c3a65a</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/web-service-tests.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -24,5 +25,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
-   <type>WEBSERVICE</type>
+   <timeStampInProperties>true</timeStampInProperties>
+   <type>WEBUI</type>
 </Project>

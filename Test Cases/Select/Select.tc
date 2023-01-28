@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77b61034-33ae-402a-9ff3-353c2551dde1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ae34d9d-7c19-4621-88d5-f6571b4f1784</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>1ae34d9d-7c19-4621-88d5-f6571b4f1784</id>
+      <masked>false</masked>
+      <name>Tiempo</name>
+   </variable>
+</TestCaseEntity>

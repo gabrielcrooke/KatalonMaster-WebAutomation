@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Datos en formato cvs ,</description>
+   <name>Data_csv</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>4da4cbd3-bb12-4b50-af30-2b76b8aee4d8</dataFileGUID>
+   <dataSourceUrl>/Users/gabrielcrooke/Katalon Studio/Sample - Web API Tests/Data_externa/Datos_csv.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

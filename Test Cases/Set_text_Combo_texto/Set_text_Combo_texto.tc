@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set_text_Combo_texto</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03aee959-354e-45d8-b636-ba4d43039bb8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f3271c3-aab9-4b51-89f8-3cbf12d92921</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>8f3271c3-aab9-4b51-89f8-3cbf12d92921</id>
+      <masked>false</masked>
+      <name>Tiempo</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>focus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ef2f713-c5ed-47aa-a554-2fef31de6391</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0b627677-4d95-4c89-a3ac-e15715187321</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>0b627677-4d95-4c89-a3ac-e15715187321</id>
+      <masked>false</masked>
+      <name>tiempo</name>
+   </variable>
+</TestCaseEntity>

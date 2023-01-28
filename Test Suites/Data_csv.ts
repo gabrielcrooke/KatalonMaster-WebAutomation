@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Data_csv</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>822425cc-c764-4e47-b610-2c757663301d</testSuiteGuid>
+   <testCaseLink>
+      <guid>e9ef0e3b-337c-49d9-849a-738e0df430bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data_excell/Data_excell</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2035c5cd-b444-4222-8425-16b478c64b63</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_excell/Data_csv</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2035c5cd-b444-4222-8425-16b478c64b63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nombre</value>
+         <variableId>1f15479a-f997-4974-94cd-6767c0ee539b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2035c5cd-b444-4222-8425-16b478c64b63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>apellido</value>
+         <variableId>76b0b504-bacc-4309-af1d-be1f3b272b7e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2035c5cd-b444-4222-8425-16b478c64b63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>4098742c-b6e5-49d5-a4a2-6591cc168c94</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

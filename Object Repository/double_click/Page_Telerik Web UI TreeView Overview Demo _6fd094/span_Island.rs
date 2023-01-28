@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Island</name>
+   <tag></tag>
+   <elementGuidId>53a63dbf-7c4b-41de-969a-2b6176590f88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ctl00_ContentPlaceholder1_RadTreeView1']/ul/li/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.rtOut.rtHover > div.rtIn > span.rtText</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9168cf83-eef2-4a50-bc2b-7de10a78235d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rtText</value>
+      <webElementGuid>011db8f3-ae11-4c64-84c8-20cba4879eef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Island</value>
+      <webElementGuid>81bf52af-6124-49dd-87fa-1079c4130970</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceholder1_RadTreeView1&quot;)/ul[@class=&quot;rtUL rtLines&quot;]/li[@class=&quot;rtLI rtFirst rtLast&quot;]/div[@class=&quot;rtOut rtHover&quot;]/div[@class=&quot;rtIn&quot;]/span[@class=&quot;rtText&quot;]</value>
+      <webElementGuid>c46e04b2-f629-4e9e-ace5-c2a5b539753f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ctl00_ContentPlaceholder1_RadTreeView1']/ul/li/div/div/span</value>
+      <webElementGuid>addd8595-7111-4c4a-a6be-3f58952afe7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[4]/following::span[3]</value>
+      <webElementGuid>41951913-f23a-4b0b-a75d-b590413beeee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[3]/following::span[3]</value>
+      <webElementGuid>90c1f162-3ac9-43d8-921d-8c43a6c8dbda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zanzibar'])[1]/preceding::span[2]</value>
+      <webElementGuid>806ae710-95bc-43dc-bc06-974b652d1b01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Weekend Package'])[1]/preceding::span[3]</value>
+      <webElementGuid>0c7e6b5d-8917-494b-adfa-6237d261eebd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Island']/parent::*</value>
+      <webElementGuid>531b7f9b-c4ee-415b-9de3-d8bc2bcacfeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/ul/li/div/div/span</value>
+      <webElementGuid>d5074bc3-4bf3-4bae-b039-1984ffff8e69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Island' or . = 'Island')]</value>
+      <webElementGuid>7acd86b4-2c46-4991-8b7c-749b4f87a3e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

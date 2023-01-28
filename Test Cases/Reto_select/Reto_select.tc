@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reto_select</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4706242-ed4b-4836-840d-f57fafd132a3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b2b5963-f890-4c2f-ab00-88e064abe06b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>5b2b5963-f890-4c2f-ab00-88e064abe06b</id>
+      <masked>false</masked>
+      <name>Tiempo</name>
+   </variable>
+</TestCaseEntity>

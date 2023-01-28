@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Male</name>
+   <tag></tag>
+   <elementGuidId>f960e7f4-fa6a-4d2d-a948-febd65c96b89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='q26']/table/tbody/tr/td/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>f46b2fa1-bcc5-4160-bb3c-de1752cca513</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>RESULT_RadioButton-7_0</value>
+      <webElementGuid>b4034c28-d371-4e61-9440-3833dda2a454</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Male</value>
+      <webElementGuid>ef6a77af-b389-4515-a024-c19142c1968e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q26&quot;)/table[@class=&quot;inline_grid choices&quot;]/tbody[1]/tr[1]/td[1]/label[1]</value>
+      <webElementGuid>68ca5f87-e4d9-41bc-a33d-26294a7c7283</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/call_testcase/call_testcase2/Page_Automation Testing Practice/iframe_Automation Testing Practice_frame-on_f39fe2</value>
+      <webElementGuid>da8607e7-67fd-430e-ba68-a0a01dc090b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q26']/table/tbody/tr/td/label</value>
+      <webElementGuid>8ca1a759-b974-4895-a2e3-15daa9a787a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/following::label[1]</value>
+      <webElementGuid>438acefc-3eef-40dc-8887-faa33ee20684</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Address'])[1]/following::label[1]</value>
+      <webElementGuid>250e3d64-f20e-4041-ab46-63aac64b8860</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Female'])[1]/preceding::label[1]</value>
+      <webElementGuid>2ff8ebed-290c-4360-836d-5c4d646f1e37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What days of the week are you consistently available?'])[1]/preceding::label[2]</value>
+      <webElementGuid>a4ec5438-d2ac-414f-9c3a-7e51843fe9c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Male']/parent::*</value>
+      <webElementGuid>f9bb9512-3577-455e-a199-c50cbfcfdbcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/label</value>
+      <webElementGuid>78998ef5-2711-4fb0-99fa-b98cf234c220</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Male' or . = 'Male')]</value>
+      <webElementGuid>7f85d639-2232-4a02-8210-27ba8f4e6b40</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

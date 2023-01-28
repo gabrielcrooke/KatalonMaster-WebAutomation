@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Sunday</name>
+   <tag></tag>
+   <elementGuidId>ad12ca6c-02df-4e90-adb2-087921c88f51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#q15 > table.inline_grid.choices > tbody > tr > td > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='q15']/table/tbody/tr/td/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7696c947-d8fa-467c-948b-dfa1b9feaa08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>RESULT_CheckBox-8_0</value>
+      <webElementGuid>fdd5ef1a-f81f-453c-a8ac-748bdaf1788a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sunday</value>
+      <webElementGuid>e6def1cf-7ab3-4869-8c51-ded3fbbe5f6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q15&quot;)/table[@class=&quot;inline_grid choices&quot;]/tbody[1]/tr[1]/td[1]/label[1]</value>
+      <webElementGuid>43e05387-205e-49db-8cc0-47a903024e3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/call_testcase/call_testcase2/Page_Automation Testing Practice/iframe_Automation Testing Practice_frame-on_f39fe2</value>
+      <webElementGuid>5718db45-8ad2-4bc6-b4b2-88d7fda9df18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q15']/table/tbody/tr/td/label</value>
+      <webElementGuid>df7d791f-f4b3-444e-967d-d009d1cecb1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What days of the week are you consistently available?'])[1]/following::label[1]</value>
+      <webElementGuid>b427b1bf-c299-4bae-87cf-c2ca7c7aacfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Female'])[1]/following::label[1]</value>
+      <webElementGuid>3ce6396f-e7bb-4ccd-9ca1-191d3ba837a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monday'])[1]/preceding::label[1]</value>
+      <webElementGuid>c6ef9b12-db5e-4b87-95ba-2d8543ed2645</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tuesday'])[1]/preceding::label[2]</value>
+      <webElementGuid>e71c717a-dc33-444c-8cce-e98db456febb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sunday']/parent::*</value>
+      <webElementGuid>97505363-0501-4860-9c68-e8645b5e585c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[17]/table/tbody/tr/td/label</value>
+      <webElementGuid>5cec496c-d836-4dd5-a32e-b817db18d705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Sunday' or . = 'Sunday')]</value>
+      <webElementGuid>b2ea907b-1dcc-4c76-86a4-fdfc2b2c598d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
