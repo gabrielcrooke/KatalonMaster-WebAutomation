@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integration_tests,Chrome 109.0.0.0,,,2023-02-01 16:14:39,2023-02-01 16:18:41,4m - 1.937s,PASSED
+,,,,,,,
+Test Cases/bucles/Reto_for,Chrome 109.0.0.0,,,2023-02-01 16:14:39,2023-02-01 16:15:36,56.928s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-01 16:14:40,2023-02-01 16:14:51,11.629s,PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 109.0.0.0,,,2023-02-01 16:14:51,2023-02-01 16:14:57,5.656s,PASSED
+waitForPageLoad(10),Chrome 109.0.0.0,,,2023-02-01 16:14:57,2023-02-01 16:14:57,0.298s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-01 16:14:57,2023-02-01 16:14:59,1.570s,PASSED
+"scrollToPosition(0, 250)",Chrome 109.0.0.0,,,2023-02-01 16:14:59,2023-02-01 16:15:01,1.814s,PASSED
+"for ([x = 1, x <= 5, (x++)])",Chrome 109.0.0.0,,,2023-02-01 16:15:01,2023-02-01 16:15:35,34.810s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-01 16:15:35,2023-02-01 16:15:36,0.826s,PASSED
+,,,,,,,
+Test Cases/bucles/Reto_while_solution,Chrome 109.0.0.0,,,2023-02-01 16:15:36,2023-02-01 16:15:59,22.317s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-01 16:15:37,2023-02-01 16:15:41,4.800s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-01 16:15:41,2023-02-01 16:15:42,0.457s,PASSED
+"navigateToUrl(""https://www.google.com.do/?gws_rd=ssl"")",Chrome 109.0.0.0,,,2023-02-01 16:15:42,2023-02-01 16:15:43,1.253s,PASSED
+waitForPageLoad(0),Chrome 109.0.0.0,,,2023-02-01 16:15:43,2023-02-01 16:15:43,0.017s,PASSED
+res = 0,Chrome 109.0.0.0,,,2023-02-01 16:15:43,2023-02-01 16:15:43,0.001s,PASSED
+while (res != 8),Chrome 109.0.0.0,,,2023-02-01 16:15:43,2023-02-01 16:15:58,15.009s,PASSED
+if (res == 8),Chrome 109.0.0.0,,,2023-02-01 16:15:58,2023-02-01 16:15:59,0.379s,PASSED
+,,,,,,,
+Test Cases/Reto_select/Reto_select,Chrome 109.0.0.0,,,2023-02-01 16:15:59,2023-02-01 16:16:27,28.585s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-01 16:15:59,2023-02-01 16:16:02,3.060s,PASSED
+"navigateToUrl(""https://testsheepnz.github.io/BasicCalculator.html"")",Chrome 109.0.0.0,,,2023-02-01 16:16:02,2023-02-01 16:16:03,1.525s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-01 16:16:03,2023-02-01 16:16:04,0.512s,PASSED
+"scrollToElement(findTestObject(""Reto_select/Page_Basic Calculator/select_Prototype""), 0)",Chrome 109.0.0.0,,,2023-02-01 16:16:04,2023-02-01 16:16:05,0.511s,PASSED
+"selectOptionByValue(findTestObject(""Reto_select/Page_Basic Calculator/select_Prototype""), ""6"", false)",Chrome 109.0.0.0,,,2023-02-01 16:16:05,2023-02-01 16:16:05,0.936s,PASSED
+delay(Tiempo),Chrome 109.0.0.0,,,2023-02-01 16:16:05,2023-02-01 16:16:07,1.072s,PASSED
+"setText(findTestObject(""Reto_select/Page_Basic Calculator/input_First number_number1""), ""10"")",Chrome 109.0.0.0,,,2023-02-01 16:16:07,2023-02-01 16:16:08,1.089s,PASSED
+delay(Tiempo),Chrome 109.0.0.0,,,2023-02-01 16:16:08,2023-02-01 16:16:09,1.075s,PASSED
+"setText(findTestObject(""Reto_select/Page_Basic Calculator/input_Second number_number2""), ""2"")",Chrome 109.0.0.0,,,2023-02-01 16:16:09,2023-02-01 16:16:10,0.908s,PASSED
+delay(Tiempo),Chrome 109.0.0.0,,,2023-02-01 16:16:10,2023-02-01 16:16:11,1.078s,PASSED
+"selectOptionByLabel(findTestObject(""Reto_select/Page_Basic Calculator/select_Add""), ""Divide"", false)",Chrome 109.0.0.0,,,2023-02-01 16:16:11,2023-02-01 16:16:12,1.259s,PASSED
+delay(Tiempo),Chrome 109.0.0.0,,,2023-02-01 16:16:12,2023-02-01 16:16:13,1.004s,PASSED
+"click(findTestObject(""Reto_select/Page_Basic Calculator/input_Operation_calculateButton""))",Chrome 109.0.0.0,,,2023-02-01 16:16:13,2023-02-01 16:16:13,0.493s,PASSED
+delay(10),Chrome 109.0.0.0,,,2023-02-01 16:16:13,2023-02-01 16:16:24,10.077s,PASSED
+"check(findTestObject(""Reto_select/Page_Basic Calculator/input_Integers only_intSelection""), STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2023-02-01 16:16:24,2023-02-01 16:16:24,0.668s,PASSED
+delay(Tiempo),Chrome 109.0.0.0,,,2023-02-01 16:16:24,2023-02-01 16:16:25,1.079s,PASSED
+"click(findTestObject(""Reto_select/Page_Basic Calculator/input_Integers only_clearButton""))",Chrome 109.0.0.0,,,2023-02-01 16:16:25,2023-02-01 16:16:26,0.476s,PASSED
+delay(Tiempo),Chrome 109.0.0.0,,,2023-02-01 16:16:26,2023-02-01 16:16:27,1.077s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-01 16:16:27,2023-02-01 16:16:27,0.377s,PASSED
+,,,,,,,
+Test Cases/Select/Select,Chrome 109.0.0.0,,,2023-02-01 16:16:27,2023-02-01 16:16:44,16.612s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-01 16:16:27,2023-02-01 16:16:30,2.965s,PASSED
+"navigateToUrl(""https://testingqarvn.com.es/combobox/"")",Chrome 109.0.0.0,,,2023-02-01 16:16:30,2023-02-01 16:16:33,2.971s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-01 16:16:33,2023-02-01 16:16:34,0.541s,PASSED
+"selectOptionByLabel(findTestObject(""Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac""), ""Linux"", false)",Chrome 109.0.0.0,,,2023-02-01 16:16:34,2023-02-01 16:16:35,0.947s,PASSED
+delay(Tiempo),Chrome 109.0.0.0,,,2023-02-01 16:16:35,2023-02-01 16:16:37,2.083s,PASSED
+"selectOptionByIndex(findTestObject(""Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac""), 2)",Chrome 109.0.0.0,,,2023-02-01 16:16:37,2023-02-01 16:16:38,1.321s,PASSED
+delay(Tiempo),Chrome 109.0.0.0,,,2023-02-01 16:16:38,2023-02-01 16:16:40,2.075s,PASSED
+"selectOptionByValue(findTestObject(""Select/Page_ComboBox  TestingQaRvn/select_WindowsLinuxMac""), ""Windows"", false)",Chrome 109.0.0.0,,,2023-02-01 16:16:40,2023-02-01 16:16:41,1.079s,PASSED
+delay(Tiempo),Chrome 109.0.0.0,,,2023-02-01 16:16:41,2023-02-01 16:16:43,2.074s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-01 16:16:43,2023-02-01 16:16:44,0.370s,PASSED
+,,,,,,,
+Test Cases/qaInterview,Chrome 109.0.0.0,,,2023-02-01 16:16:44,2023-02-01 16:16:52,8.333s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-01 16:16:44,2023-02-01 16:16:47,2.531s,PASSED
+"navigateToUrl(""https://qainterview.pythonanywhere.com/"")",Chrome 109.0.0.0,,,2023-02-01 16:16:47,2023-02-01 16:16:48,1.165s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-01 16:16:48,2023-02-01 16:16:48,0.512s,PASSED
+"setText(findTestObject(""qaInterview/Page_Factoriall/input_The greatest factorial calculator_number""), ""5"")",Chrome 109.0.0.0,,,2023-02-01 16:16:48,2023-02-01 16:16:49,0.962s,PASSED
+"click(findTestObject(""qaInterview/Page_Factoriall/button_Calculate""))",Chrome 109.0.0.0,,,2023-02-01 16:16:49,2023-02-01 16:16:50,0.980s,PASSED
+delay(1),Chrome 109.0.0.0,,,2023-02-01 16:16:50,2023-02-01 16:16:51,1.076s,PASSED
+"resultado = getText(findTestObject(""qaInterview/Page_Factoriall/factorialResult""))",Chrome 109.0.0.0,,,2023-02-01 16:16:51,2023-02-01 16:16:52,0.495s,PASSED
+print(resultado),Chrome 109.0.0.0,,,2023-02-01 16:16:52,2023-02-01 16:16:52,0.002s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-01 16:16:52,2023-02-01 16:16:52,0.344s,PASSED
+,,,,,,,
+Test Cases/Custom_keywords/test_1,Chrome 109.0.0.0,,,2023-02-01 16:16:52,2023-02-01 16:17:03,10.586s,PASSED
+com.helper.OpenBowser.OpenBrowser.OpenBowser(),Chrome 109.0.0.0,,,2023-02-01 16:16:52,2023-02-01 16:17:00,7.768s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-02-01 16:17:00,2023-02-01 16:17:02,2.145s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-01 16:17:02,2023-02-01 16:17:03,0.388s,PASSED
+,,,,,,,
+Test Cases/Pruebas/Caso_2,Chrome 109.0.0.0,,,2023-02-01 16:17:03,2023-02-01 16:17:23,20.216s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-01 16:17:03,2023-02-01 16:17:06,2.639s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 109.0.0.0,,,2023-02-01 16:17:06,2023-02-01 16:17:09,3.769s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-01 16:17:09,2023-02-01 16:17:10,0.538s,PASSED
+"click(findTestObject(""Object Repository/Caso_2/Page_ToolsQA/div_Elements_card-up""))",Chrome 109.0.0.0,,,2023-02-01 16:17:10,2023-02-01 16:17:13,3.300s,PASSED
+"click(findTestObject(""Object Repository/Caso_2/Page_ToolsQA/li_Text Box""))",Chrome 109.0.0.0,,,2023-02-01 16:17:13,2023-02-01 16:17:14,1.204s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Caso_2/Page_ToolsQA/div_Text Box""), ""Text Box"")",Chrome 109.0.0.0,,,2023-02-01 16:17:14,2023-02-01 16:17:15,0.688s,PASSED
+"setText(findTestObject(""Object Repository/Caso_2/Page_ToolsQA/input_Full Name_userName""), ""Gabriel Crooke"")",Chrome 109.0.0.0,,,2023-02-01 16:17:15,2023-02-01 16:17:17,1.409s,PASSED
+"setText(findTestObject(""Object Repository/Caso_2/Page_ToolsQA/input_Email_userEmail""), ""gabrielcrooke@gmail.com"")",Chrome 109.0.0.0,,,2023-02-01 16:17:17,2023-02-01 16:17:19,2.321s,PASSED
+"setText(findTestObject(""Object Repository/Caso_2/Page_ToolsQA/textarea_Current Address_currentAddress""), ""Direccion 1"")",Chrome 109.0.0.0,,,2023-02-01 16:17:19,2023-02-01 16:17:20,1.042s,PASSED
+"setText(findTestObject(""Object Repository/Caso_2/Page_ToolsQA/textarea_Permanent Address_permanentAddress""), ""Direccion 2"")",Chrome 109.0.0.0,,,2023-02-01 16:17:20,2023-02-01 16:17:21,0.980s,PASSED
+"scrollToElement(findTestObject(""Caso_2/Page_ToolsQA/button_Submit""), 0)",Chrome 109.0.0.0,,,2023-02-01 16:17:21,2023-02-01 16:17:21,0.477s,PASSED
+"click(findTestObject(""Object Repository/Caso_2/Page_ToolsQA/button_Submit""))",Chrome 109.0.0.0,,,2023-02-01 16:17:21,2023-02-01 16:17:22,0.472s,PASSED
+"click(findTestObject(""Object Repository/Caso_2/Page_ToolsQA/div_NameGabriel CrookeEmailgabrielcrookegma_e21247""))",Chrome 109.0.0.0,,,2023-02-01 16:17:22,2023-02-01 16:17:23,0.792s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-01 16:17:23,2023-02-01 16:17:23,0.389s,PASSED
+,,,,,,,
+Test Cases/Spy_web/Caso_spy_web,Chrome 109.0.0.0,,,2023-02-01 16:17:23,2023-02-01 16:18:41,1m - 17.615s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-01 16:17:23,2023-02-01 16:17:25,2.314s,PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Chrome 109.0.0.0,,,2023-02-01 16:17:25,2023-02-01 16:17:28,2.969s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-01 16:17:28,2023-02-01 16:17:29,0.511s,PASSED
+"verifyTextPresent(""Text Box"", false)",Chrome 109.0.0.0,,,2023-02-01 16:17:29,2023-02-01 16:17:32,2.756s,PASSED
+"setText(findTestObject(""spy_web/Page_ToolsQA/input_Full Name_userName""), ""Gabriel Crooke"")",Chrome 109.0.0.0,,,2023-02-01 16:17:32,2023-02-01 16:18:36,1m - 3.867s,PASSED
+"setText(findTestObject(""spy_web/Page_ToolsQA/input_Email_userEmail""), ""gcrooke@gmail.com"")",Chrome 109.0.0.0,,,2023-02-01 16:18:36,2023-02-01 16:18:37,0.985s,PASSED
+"setText(findTestObject(""spy_web/Page_ToolsQA/textarea_Current Address_currentAddress""), ""Direccion 1"")",Chrome 109.0.0.0,,,2023-02-01 16:18:37,2023-02-01 16:18:38,1.228s,PASSED
+"setText(findTestObject(""spy_web/Page_ToolsQA/textarea_Permanent Address_permanentAddress""), ""Direccion 2"")",Chrome 109.0.0.0,,,2023-02-01 16:18:38,2023-02-01 16:18:39,1.222s,PASSED
+"scrollToElement(findTestObject(""spy_web/Page_ToolsQA/button_Submit""), 0)",Chrome 109.0.0.0,,,2023-02-01 16:18:39,2023-02-01 16:18:40,0.668s,PASSED
+"click(findTestObject(""spy_web/Page_ToolsQA/button_Submit""))",Chrome 109.0.0.0,,,2023-02-01 16:18:40,2023-02-01 16:18:40,0.497s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-01 16:18:40,2023-02-01 16:18:41,0.424s,PASSED

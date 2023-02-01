@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/spy_web/Page_ToolsQA/input_Full Name_userName",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027userName\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230201_163424/Integration_tests/20230201_163444/Object Repository/spy_web/Page_ToolsQA/input_Full Name_userName_attributes.png"
+    }
+  ]
+}
